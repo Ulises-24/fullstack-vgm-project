@@ -1,15 +1,14 @@
-# 🎮 Sistema de Gestión de Órdenes y Usuarios (Proyecto Académico)
+# 🎮 Sistema de Gestión de Ordenes y Usuarios (Proyecto Académico)
 
-Este proyecto es una aplicación **Full-Stack** diseñada para la gestión administrativa de una tienda de videojuegos. Permite el control centralizado de usuarios y el procesamiento de órdenes de compra con detalles dinámicos, utilizando una arquitectura de API REST local.
+Este proyecto es una aplicación **Full-Stack** diseñada para la gestión administrativa de una tienda de videojuegos. Permite el control centralizado de usuarios y el procesamiento de ordenes de compra con detalles dinámicos, utilizando una arquitectura de API REST local.
 
 ## 🚀 Características Principales
 
 - **Gestión de Usuarios**: CRUD completo con soporte para atributos específicos como `nombre_completo`, `correo` y `proveedor_login`.
-- **Sistema de Órdenes y Detalles**: 
-    - Creación y actualización de órdenes en tiempo real.
+- **Sistema de Ordenes y Detalles**: 
+    - Creación y actualización de ordenes en tiempo real.
     - Manejo dinámico de múltiples productos por orden (detalles).
 - **Integridad de Datos (Transacciones)**: Implementación de **Sequelize Transactions** para garantizar que la actualización de cabeceras y detalles sea atómica (Rollback automático en caso de error).
-- **Interfaz Glassmorphism**: Diseño de tablas translúcidas con estados visuales (badges) y componentes reactivos.
 
 ---
 
