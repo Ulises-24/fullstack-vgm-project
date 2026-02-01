@@ -104,7 +104,7 @@ const updateOrden = async (id_orden, data) => {
     if (data.DetalleOrdens && data.DetalleOrdens.length > 0) {
       const nuevosDetalles = data.DetalleOrdens.map(det => ({
         id_orden: id_orden,
-        nombre_juego: det.nombre_juego,    // <-- Verifica que este nombre sea igual en tu Modelo
+        nombre_juego: det.nombre_juego,
         cantidad: parseInt(det.cantidad),
         precio_unitario: parseFloat(det.precio_unitario),
         subtotal: parseFloat(det.subtotal)

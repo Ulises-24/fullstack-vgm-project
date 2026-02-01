@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getUsuarios, createUsuario, updateUsuario, deleteUsuario } from '../api/usuarios';
-import { useUser } from '../context/UserContext'; // Verifica que esta ruta sea correcta
+import { useUser } from '../context/UserContext';
 import { FaUsers } from 'react-icons/fa';
 import { IoClose } from "react-icons/io5";
 import '../Styles/Usuarios.css';
 
 const Usuarios = () => {
     const navigate = useNavigate();
-    const { user: loggedInUser, setUser } = useUser(); // Consumimos el contexto global
+    const { user: loggedInUser, setUser } = useUser();
     const [usuarios, setUsuarios] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -33,7 +33,6 @@ const Usuarios = () => {
         try {
             setLoading(true);
             const response = await getUsuarios();
-            // Normalización de la respuesta según como venga de tu backend
             const data = response?.data?.data || response?.data || response;
             setUsuarios(Array.isArray(data) ? data : []);
             setError(null);
@@ -83,14 +82,13 @@ const Usuarios = () => {
     };
 
     const handleSubmit = async (e) => {
-        e.preventDefault(); // FUNDAMENTAL: Detiene la recarga de página
+        e.preventDefault();
         console.log("Enviando datos:", formData);
 
         try {
             if (editingUser) {
                 await updateUsuario(editingUser.id_usuario, formData);
 
-                // Si el usuario editado es el mismo que está logueado, actualizamos el estado global
                 if (loggedInUser && loggedInUser.id_usuario === editingUser.id_usuario) {
                     setUser({ ...loggedInUser, ...formData });
                 }

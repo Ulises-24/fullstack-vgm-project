@@ -11,7 +11,6 @@ const {
 } = require('../config/environment');
 const logger = require('../utils/logger');
 
-// Cliente MSAL
 const msalClient = new ConfidentialClientApplication({
     auth: {
         clientId: MICROSOFT_CLIENT_ID,
@@ -20,11 +19,8 @@ const msalClient = new ConfidentialClientApplication({
     }
 });
 
-// Scopes mínimos recomendados para login
 const SCOPES = ['openid', 'profile', 'email', 'User.Read'];
 
-
-// 1. Obtener URL de autorización (redirigir al usuario)
 const getMicrosoftAuthUrl = async () => {
     try {
         const url = await msalClient.getAuthCodeUrl({
@@ -43,8 +39,6 @@ const getMicrosoftAuthUrl = async () => {
     }
 };
 
-
-// 2. Intercambiar código por tokens y obtener info del usuario
 const verifyMicrosoftCode = async (code) => {
     try {
         const tokenResponse = await msalClient.acquireTokenByCode({
@@ -55,7 +49,6 @@ const verifyMicrosoftCode = async (code) => {
 
         const accessToken = tokenResponse.accessToken;
 
-        // Obtener datos del usuario desde Microsoft Graph
         const { data } = await axios.get('https://graph.microsoft.com/v1.0/me', {
             headers: {
                 Authorization: `Bearer ${accessToken}`
@@ -68,7 +61,7 @@ const verifyMicrosoftCode = async (code) => {
             microsoftId: data.id,
             email: data.mail || data.userPrincipalName,
             name: data.displayName,
-            picture: null, // Microsoft no devuelve foto aquí fácilmente
+            picture: null,
             accessToken,
             refreshToken: tokenResponse.refreshToken || null
         };
@@ -81,8 +74,6 @@ const verifyMicrosoftCode = async (code) => {
     }
 };
 
-
-// 3. Generar JWT propio (igual que en Google)
 const generateJwtToken = (user) => {
     try {
         const payload = {
@@ -100,8 +91,6 @@ const generateJwtToken = (user) => {
     }
 };
 
-
-// 4. Login con Microsoft (solo si el usuario ya existe)
 const loginWithMicrosoft = async (code) => {
     const transaction = await sequelize.transaction();
 
@@ -141,15 +130,12 @@ const loginWithMicrosoft = async (code) => {
     }
 };
 
-
-// 5. Registro con Microsoft
 const registerWithMicrosoft = async (code) => {
     const transaction = await sequelize.transaction();
 
     try {
         const microsoftData = await verifyMicrosoftCode(code);
 
-        // Verificar si ya existe por email
         let usuario = await Usuarios.findOne({
             where: { correo: microsoftData.email },
             transaction,
@@ -161,7 +147,6 @@ const registerWithMicrosoft = async (code) => {
             throw error;
         }
 
-        // Verificar si ya existe por id_microsoft
         usuario = await Usuarios.findOne({
             where: { id_microsoft: microsoftData.microsoftId },
             transaction,
@@ -173,7 +158,6 @@ const registerWithMicrosoft = async (code) => {
             throw error;
         }
 
-        // Crear nuevo usuario
         usuario = await Usuarios.create({
             nombre_completo: microsoftData.name || 'Usuario Microsoft',
             correo: microsoftData.email,

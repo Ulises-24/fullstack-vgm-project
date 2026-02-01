@@ -165,7 +165,6 @@ const updateOrdenTotal = async (idOrden, transaction) => {
     }
 };
 
-// Exportación con los nombres que espera tu controlador
 module.exports = {
     getDetallesPorOrden,
     getDetalleOrdenById,

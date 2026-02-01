@@ -79,38 +79,6 @@ const registerWithGoogle = async (req, res, next) => {
     }
 };
 
-/*
-const getGoogleCallback = async (req, res) => {
-    try {
-        const { code } = req.query;
-
-        logger.info('Handled GET /auth/google/callback request');
-
-        if (!code) {
-            return res.status(400).json({
-                success: false,
-                message: 'No se recibió el código de Google en el callback',
-                data: null
-            });
-        }
-
-        res.status(200).json({
-            success: true,
-            message: 'Código recibido correctamente',
-            code
-        });
-    } catch (error) {
-        logger.error(error);
-
-        res.status(500).json({
-            success: false,
-            message: error.message || 'Error al obtener callback con Google',
-            data: null
-        });
-    }
-};
-*/
-
 const getGoogleCallback = async (req, res) => {
     try {
         const { code } = req.query;

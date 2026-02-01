@@ -3,8 +3,6 @@ const logger = require('../utils/logger');
 
 const { NODE_ENV } = require('../config/environment');
 
-
-// 1. Obtener URL de autorización Microsoft
 const getMicrosoftAuthUrl = async (req, res, next) => {
     try {
         const url = await authMicrosoftService.getMicrosoftAuthUrl();
@@ -26,8 +24,6 @@ const getMicrosoftAuthUrl = async (req, res, next) => {
     }
 };
 
-
-// 2. Login con Microsoft
 const loginWithMicrosoft = async (req, res, next) => {
     try {
         const { code } = req.body;
@@ -92,32 +88,6 @@ const registerWithMicrosoft = async (req, res, next) => {
         next(error);
     }
 };
-
-
-// 4. Callback de Microsoft (solo para recibir el code)
-/*
-const getMicrosoftCallback = async (req, res, next) => {
-    try {
-        const { code } = req.query;
-
-        logger.info('Handled GET /auth/microsoft/callback request');
-
-        res.status(200).json({
-            success: true,
-            message: 'Código Microsoft recibido correctamente',
-            code: code
-        });
-
-    } catch (error) {
-        res.status(error.status || 500).json({
-            success: false,
-            message: error.message || 'Error al obtener callback con Microsoft',
-            data: null
-        });
-        next(error);
-    }
-};
-*/
 
 const getMicrosoftCallback = async (req, res) => {
     try {

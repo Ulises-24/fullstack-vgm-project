@@ -1,13 +1,10 @@
 const detalleOrdenService = require('../services/detalleOrden.service');
 const logger = require('../utils/logger');
 
-// En tu archivo de controlador
 const getDetallesOrdenByOrden = async (req, res, next) => {
   try {
-    // 1. Forzamos la obtención del ID y verificamos que exista
     const { id_orden } = req.params;
 
-    // Limpiamos cualquier texto (por si llega "orden1")
     const limpioId = String(id_orden).replace(/\D/g, '');
 
     if (!limpioId) {
@@ -23,7 +20,6 @@ const getDetallesOrdenByOrden = async (req, res, next) => {
       data: detalles
     });
   } catch (error) {
-    // Si el servicio falla, capturamos el error aquí
     logger.error(`Error en getDetallesOrdenByOrden: ${error.message}`);
     res.status(500).json({
       success: false,

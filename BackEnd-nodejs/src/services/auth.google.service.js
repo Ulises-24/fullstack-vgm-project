@@ -1,6 +1,6 @@
 const { OAuth2Client } = require('google-auth-library');
 const jwt = require('jsonwebtoken');
-const { Usuarios, sequelize } = require('../models'); // ajusta ruta
+const { Usuarios, sequelize } = require('../models');
 const {
     GOOGLE_CLIENT_ID,
     GOOGLE_CLIENT_SECRET,
@@ -12,21 +12,18 @@ const logger = require('../utils/logger');
 const client = new OAuth2Client(
     GOOGLE_CLIENT_ID,
     GOOGLE_CLIENT_SECRET,
-    ///GOOGLE_REDIRECT_URI
 );
 
-// Scopes mínimos recomendados
 const SCOPES = ['https://www.googleapis.com/auth/userinfo.profile', 'https://www.googleapis.com/auth/userinfo.email'];
 
-// 1. Obtener URL de autorización (redirigir al usuario)
 const getGoogleAuthUrl = () => {
     try {
         const url = client.generateAuthUrl({
-            access_type: 'offline',           // para obtener refresh_token si lo necesitas
+            access_type: 'offline',
             scope: SCOPES,
             prompt: 'select_account',
             client_id: GOOGLE_CLIENT_ID,
-            redirect_uri: GOOGLE_REDIRECT_URI         // o 'consent' / 'login'
+            redirect_uri: GOOGLE_REDIRECT_URI
         });
         logger.info('URL de autorización Google generada');
         return url;
@@ -38,7 +35,6 @@ const getGoogleAuthUrl = () => {
     }
 };
 
-// 2. Intercambiar código por tokens y obtener info del usuario
 const verifyGoogleCode = async (code) => {
     try {
         const { tokens } = await client.getToken({
@@ -58,12 +54,12 @@ const verifyGoogleCode = async (code) => {
         logger.info('Código Google verificado', { email: payload.email });
 
         return {
-            googleId: payload.sub,                  // ID único de Google
+            googleId: payload.sub,
             email: payload.email,
             name: payload.name || `${payload.given_name || ''} ${payload.family_name || ''}`.trim(),
             picture: payload.picture || null,
             accessToken: tokens.access_token,
-            refreshToken: tokens.refresh_token || null, // solo la primera vez
+            refreshToken: tokens.refresh_token || null,
         };
     } catch (error) {
         logger.error('Error verificando código Google', { error: error.message });
@@ -73,7 +69,6 @@ const verifyGoogleCode = async (code) => {
     }
 };
 
-// 3. Generar JWT propio
 const generateJwtToken = (user) => {
     try {
         const payload = {
@@ -90,7 +85,6 @@ const generateJwtToken = (user) => {
     }
 };
 
-// 4. Login - solo si el usuario ya existe
 const loginWithGoogle = async (code) => {
     const transaction = await sequelize.transaction();
     try {
@@ -128,13 +122,11 @@ const loginWithGoogle = async (code) => {
     }
 };
 
-// 5. Registro - crea usuario si no existe
 const registerWithGoogle = async (code) => {
     const transaction = await sequelize.transaction();
     try {
         const googleData = await verifyGoogleCode(code);
 
-        // Verificar si ya existe por email
         let usuario = await Usuarios.findOne({
             where: { correo: googleData.email },
             transaction,
@@ -146,7 +138,6 @@ const registerWithGoogle = async (code) => {
             throw error;
         }
 
-        // Verificar si ya existe por id_google (por si cambió email)
         usuario = await Usuarios.findOne({
             where: { id_microsoft: googleData.googleId },
             transaction,
@@ -158,7 +149,6 @@ const registerWithGoogle = async (code) => {
             throw error;
         }
 
-        // Crear nuevo usuario
         usuario = await Usuarios.create({
             nombre_completo: googleData.name || 'Usuario Google',
             correo: googleData.email,

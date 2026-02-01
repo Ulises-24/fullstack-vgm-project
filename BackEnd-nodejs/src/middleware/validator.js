@@ -27,8 +27,8 @@ const validateUsuarios = [
         .normalizeEmail(),
 
     body('proveedor_login')
-        .optional() // Es opcional porque tienes un defaultValue en el modelo
-        .isIn(['MICROSOFT', 'GOOGLE', 'LOCAL']).withMessage('Proveedor no válido.'),
+        .optional()
+        .isIn(['MICROSOFT', 'GOOGLE']).withMessage('Proveedor no válido.'),
 
     body('id_microsoft')
         .notEmpty().withMessage('El ID de Microsoft es obligatorio para este flujo.'),
@@ -37,7 +37,6 @@ const validateUsuarios = [
         .optional()
         .isBoolean().withMessage('El estado debe ser booleano (true/false).'),
 
-    // Middleware para capturar los errores
     (req, res, next) => {
         const errores = validationResult(req);
         if (!errores.isEmpty()) {
