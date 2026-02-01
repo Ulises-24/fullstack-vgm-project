@@ -2,6 +2,10 @@
 
 Este proyecto es una aplicación **Full-Stack** diseñada para la gestión administrativa de una tienda de videojuegos. Permite el control centralizado de usuarios y el procesamiento de ordenes de compra con detalles dinámicos, utilizando una arquitectura de API REST local.
 
+# Autenticación externa
+- Google
+- Microsoft
+
 ## 🚀 Características Principales
 
 - **Gestión de Usuarios**: CRUD completo con soporte para atributos específicos como `nombre_completo`, `correo` y `proveedor_login`.
