@@ -1,0 +1,43 @@
+{"level":"error","message":"500 - Cannot destructure property 'code' of 'req.body' as it is undefined. - /api/auth/google/login - POST - ::1","timestamp":"2026-01-19 15:31:32"}
+{"level":"error","message":"500 - Cannot destructure property 'code' of 'req.body' as it is undefined. - /api/auth/google/login - POST - ::1","timestamp":"2026-01-19 15:34:04"}
+{"level":"error","message":"500 - Cannot destructure property 'code' of 'req.body' as it is undefined. - /api/auth/google/register - POST - ::1","timestamp":"2026-01-19 15:35:51"}
+{"level":"error","message":"500 - Cannot destructure property 'code' of 'req.body' as it is undefined. - /api/auth/google/login - POST - ::1","timestamp":"2026-01-19 15:37:01"}
+{"error":"invalid_request","level":"error","message":"Error verificando código Google","timestamp":"2026-01-19 15:40:13"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en login Google","timestamp":"2026-01-19 15:40:13"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/login - POST - ::1","timestamp":"2026-01-19 15:40:13"}
+{"error":"invalid_request","level":"error","message":"Error verificando código Google","timestamp":"2026-01-19 15:41:32"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en registro Google","timestamp":"2026-01-19 15:41:32"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/register - POST - ::1","timestamp":"2026-01-19 15:41:32"}
+{"error":"invalid_request","level":"error","message":"Error verificando código Google","timestamp":"2026-01-19 15:42:01"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en login Google","timestamp":"2026-01-19 15:42:01"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/login - POST - ::1","timestamp":"2026-01-19 15:42:01"}
+{"error":"invalid_request","level":"error","message":"Error verificando código Google","timestamp":"2026-01-19 15:42:05"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en registro Google","timestamp":"2026-01-19 15:42:05"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/register - POST - ::1","timestamp":"2026-01-19 15:42:05"}
+{"error":"invalid_request","level":"error","message":"Error verificando código Google","timestamp":"2026-01-19 15:47:42"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en registro Google","timestamp":"2026-01-19 15:47:42"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/register - POST - ::1","timestamp":"2026-01-19 15:47:42"}
+{"error":"invalid_request","level":"error","message":"Error verificando código Google","timestamp":"2026-01-19 15:51:15"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en login Google","timestamp":"2026-01-19 15:51:15"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/login - POST - ::1","timestamp":"2026-01-19 15:51:15"}
+{"error":"invalid_request","level":"error","message":"Error verificando código Google","timestamp":"2026-01-19 15:52:06"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en registro Google","timestamp":"2026-01-19 15:52:06"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/register - POST - ::1","timestamp":"2026-01-19 15:52:06"}
+{"error":"Usuario no encontrado","id_usuario":"1","level":"error","message":"Error obteniendo usuario","timestamp":"2026-01-19 15:58:30"}
+{"level":"error","message":"404 - Usuario no encontrado - /api/usuarios/1 - GET - ::1","timestamp":"2026-01-19 15:58:30"}
+{"level":"error","message":"500 - Invalid status code: undefined. Status code must be an integer. - /api/usuarios/1 - PUT - ::1","timestamp":"2026-01-19 15:59:50"}
+{"level":"error","message":"500 - Invalid status code: undefined. Status code must be an integer. - /api/usuarios/2 - PUT - ::1","timestamp":"2026-01-19 16:00:06"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-19 16:04:03"}
+{"level":"error","message":"500 - Invalid status code: undefined. Status code must be an integer. - /api/usuarios - POST - ::1","timestamp":"2026-01-19 16:04:03"}
+{"error":"Usuario no encontrado","id_usuario":"create","level":"error","message":"Error obteniendo usuario","timestamp":"2026-01-19 16:04:23"}
+{"level":"error","message":"404 - Usuario no encontrado - /api/usuarios/create - GET - ::1","timestamp":"2026-01-19 16:04:23"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-19 16:04:33"}
+{"level":"error","message":"500 - Invalid status code: undefined. Status code must be an integer. - /api/usuarios - POST - ::1","timestamp":"2026-01-19 16:04:33"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-19 17:13:50"}
+{"level":"error","message":"500 - Invalid status code: undefined. Status code must be an integer. - /api/usuarios - POST - ::1","timestamp":"2026-01-19 17:13:50"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-19 17:15:44"}
+{"level":"error","message":"500 - Invalid status code: undefined. Status code must be an integer. - /api/usuarios - POST - ::1","timestamp":"2026-01-19 17:15:44"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-19 17:18:49"}
+{"level":"error","message":"500 - Invalid status code: undefined. Status code must be an integer. - /api/usuarios - POST - ::1","timestamp":"2026-01-19 17:18:49"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-19 17:18:57"}
+{"level":"error","message":"500 - Invalid status code: undefined. Status code must be an integer. - /api/usuarios - POST - ::1","timestamp":"2026-01-19 17:18:57"}

@@ -1,0 +1,38 @@
+{"detalle_id":"orden1","error":"Detalle de Orden no encontrado","level":"error","message":"Error obteniendo detalle de la orden","timestamp":"2026-01-29 12:07:40"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: Detalle de Orden no encontrado","timestamp":"2026-01-29 12:07:40"}
+{"detalle_id":"orden1","error":"Detalle de Orden no encontrado","level":"error","message":"Error obteniendo detalle de la orden","timestamp":"2026-01-29 12:08:51"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: Detalle de Orden no encontrado","timestamp":"2026-01-29 12:08:51"}
+{"detalle_id":"orden1","error":"Detalle de Orden no encontrado","level":"error","message":"Error obteniendo detalle de la orden","timestamp":"2026-01-29 12:08:53"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: Detalle de Orden no encontrado","timestamp":"2026-01-29 12:08:53"}
+{"detalle_id":"orden1","error":"Detalle de Orden no encontrado","level":"error","message":"Error obteniendo detalle de la orden","timestamp":"2026-01-29 12:09:46"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: Detalle de Orden no encontrado","timestamp":"2026-01-29 12:09:46"}
+{"detalle_id":"orden1","error":"Detalle de Orden no encontrado","level":"error","message":"Error obteniendo detalle de la orden","timestamp":"2026-01-29 12:11:14"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: Detalle de Orden no encontrado","timestamp":"2026-01-29 12:11:14"}
+{"detalle_id":"orden1","error":"Detalle de Orden no encontrado","level":"error","message":"Error obteniendo detalle de la orden","timestamp":"2026-01-29 12:11:15"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: Detalle de Orden no encontrado","timestamp":"2026-01-29 12:11:15"}
+{"detalle_id":"orden1","error":"Detalle de Orden no encontrado","level":"error","message":"Error obteniendo detalle de la orden","timestamp":"2026-01-29 12:11:16"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: Detalle de Orden no encontrado","timestamp":"2026-01-29 12:11:16"}
+{"detalle_id":"orden1","error":"Detalle de Orden no encontrado","level":"error","message":"Error obteniendo detalle de la orden","timestamp":"2026-01-29 12:11:21"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: Detalle de Orden no encontrado","timestamp":"2026-01-29 12:11:21"}
+{"detalle_id":"orden1","error":"Detalle de Orden no encontrado","level":"error","message":"Error obteniendo detalle de la orden","timestamp":"2026-01-29 12:13:11"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: Detalle de Orden no encontrado","timestamp":"2026-01-29 12:13:11"}
+{"detalle_id":"orden1","error":"Detalle de Orden no encontrado","level":"error","message":"Error obteniendo detalle de la orden","timestamp":"2026-01-29 12:14:51"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: Detalle de Orden no encontrado","timestamp":"2026-01-29 12:14:51"}
+{"detalle_id":"orden1","error":"Detalle de Orden no encontrado","level":"error","message":"Error obteniendo detalle de la orden","timestamp":"2026-01-29 12:14:57"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: Detalle de Orden no encontrado","timestamp":"2026-01-29 12:14:57"}
+{"detalle_id":"orden1","error":"Detalle de Orden no encontrado","level":"error","message":"Error obteniendo detalle de la orden","timestamp":"2026-01-29 12:15:16"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: Detalle de Orden no encontrado","timestamp":"2026-01-29 12:15:16"}
+{"detalle_id":"2","error":"Detalle de Orden no encontrado","level":"error","message":"Error obteniendo detalle de la orden","timestamp":"2026-01-29 12:38:19"}
+{"level":"error","message":"Error en GET /ordenes/detalles/2: Detalle de Orden no encontrado","timestamp":"2026-01-29 12:38:19"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-29 14:54:05"}
+{"level":"error","message":"Error en GET /ordenes/detalles/4: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-29 14:54:05"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-29 14:54:12"}
+{"level":"error","message":"Error en GET /ordenes/detalles/3: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-29 14:54:12"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-29 14:56:02"}
+{"level":"error","message":"Error en GET /ordenes/detalles/1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-29 14:56:02"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-29 14:57:23"}
+{"level":"error","message":"Error en GET /ordenes/detalles/1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-29 14:57:23"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-29 14:57:25"}
+{"level":"error","message":"Error en GET /ordenes/detalles/1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-29 14:57:25"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-29 14:57:27"}
+{"level":"error","message":"Error en GET /ordenes/detalles/2: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-29 14:57:27"}

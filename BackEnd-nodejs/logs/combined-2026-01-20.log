@@ -1,0 +1,285 @@
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 11:02:46"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 11:02:46"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 11:02:46"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 11:02:46"}
+{"level":"info","message":"📊 Process ID: 9692","timestamp":"2026-01-20 11:02:46"}
+{"level":"info","message":"Executing (8cbc0081-4c43-4025-9b92-a39a913e7a27): START TRANSACTION;","timestamp":"2026-01-20 11:02:54"}
+{"level":"info","message":"Executing (8cbc0081-4c43-4025-9b92-a39a913e7a27): INSERT INTO `usuarios` (`id_usuario`,`nombre_completo`,`correo`,`proveedor_login`,`id_microsoft`,`fecha_registro`,`estado`) VALUES (DEFAULT,?,?,?,?,?,?);","timestamp":"2026-01-20 11:02:54"}
+{"level":"info","message":"Executing (8cbc0081-4c43-4025-9b92-a39a913e7a27): ROLLBACK;","timestamp":"2026-01-20 11:02:54"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-20 11:02:54"}
+{"level":"error","message":"500 - Invalid status code: undefined. Status code must be an integer. - /api/usuarios - POST - ::1","timestamp":"2026-01-20 11:02:54"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:02:54 +0000] \"POST /api/usuarios HTTP/1.1\" 500 - \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:02:54"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 11:16:37"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 11:16:37"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 11:16:37"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 11:16:37"}
+{"level":"info","message":"📊 Process ID: 15804","timestamp":"2026-01-20 11:16:37"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 11:17:22"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 11:17:22"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 11:17:22"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 11:17:22"}
+{"level":"info","message":"📊 Process ID: 4864","timestamp":"2026-01-20 11:17:22"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 11:17:38"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 11:17:38"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 11:17:38"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 11:17:38"}
+{"level":"info","message":"📊 Process ID: 5248","timestamp":"2026-01-20 11:17:38"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 11:17:47"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 11:17:47"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 11:17:47"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 11:17:47"}
+{"level":"info","message":"📊 Process ID: 13364","timestamp":"2026-01-20 11:17:47"}
+{"level":"info","message":"Executing (68382e2e-f4f5-4b76-8e67-9f12fc10747b): START TRANSACTION;","timestamp":"2026-01-20 11:17:53"}
+{"level":"info","message":"Executing (68382e2e-f4f5-4b76-8e67-9f12fc10747b): INSERT INTO `usuarios` (`id_usuario`,`nombre_completo`,`correo`,`proveedor_login`,`id_microsoft`,`fecha_registro`,`estado`) VALUES (DEFAULT,?,?,?,?,?,?);","timestamp":"2026-01-20 11:17:53"}
+{"level":"info","message":"Executing (68382e2e-f4f5-4b76-8e67-9f12fc10747b): ROLLBACK;","timestamp":"2026-01-20 11:17:53"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-20 11:17:53"}
+{"level":"error","message":"500 - Invalid status code: undefined. Status code must be an integer. - /api/usuarios - POST - ::1","timestamp":"2026-01-20 11:17:53"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:17:53 +0000] \"POST /api/usuarios HTTP/1.1\" 500 - \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:17:53"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 11:18:46"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 11:18:46"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 11:18:46"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 11:18:46"}
+{"level":"info","message":"📊 Process ID: 6012","timestamp":"2026-01-20 11:18:46"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 11:18:49"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 11:18:49"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 11:18:49"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 11:18:49"}
+{"level":"info","message":"📊 Process ID: 5636","timestamp":"2026-01-20 11:18:49"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 11:19:13"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 11:19:13"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 11:19:13"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 11:19:13"}
+{"level":"info","message":"📊 Process ID: 6732","timestamp":"2026-01-20 11:19:13"}
+{"level":"info","message":"Executing (e9f7d192-a724-46c4-934f-3fe5dbd818d3): START TRANSACTION;","timestamp":"2026-01-20 11:19:31"}
+{"level":"info","message":"Executing (e9f7d192-a724-46c4-934f-3fe5dbd818d3): INSERT INTO `usuarios` (`id_usuario`,`nombre_completo`,`correo`,`proveedor_login`,`id_microsoft`,`fecha_registro`,`estado`) VALUES (DEFAULT,?,?,?,?,?,?);","timestamp":"2026-01-20 11:19:31"}
+{"level":"info","message":"Executing (e9f7d192-a724-46c4-934f-3fe5dbd818d3): ROLLBACK;","timestamp":"2026-01-20 11:19:31"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-20 11:19:31"}
+{"level":"error","message":"500 - Invalid status code: undefined. Status code must be an integer. - /api/usuarios - POST - ::1","timestamp":"2026-01-20 11:19:31"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:19:31 +0000] \"POST /api/usuarios HTTP/1.1\" 500 - \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:19:31"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 11:22:19"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 11:22:19"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 11:22:19"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 11:22:19"}
+{"level":"info","message":"📊 Process ID: 15064","timestamp":"2026-01-20 11:22:19"}
+{"level":"info","message":"Executing (e98bc19e-62b6-48ff-b096-4669b1062de0): START TRANSACTION;","timestamp":"2026-01-20 11:22:23"}
+{"level":"info","message":"Executing (e98bc19e-62b6-48ff-b096-4669b1062de0): INSERT INTO `usuarios` (`id_usuario`,`nombre_completo`,`correo`,`proveedor_login`,`id_microsoft`,`fecha_registro`,`estado`) VALUES (DEFAULT,?,?,?,?,?,?);","timestamp":"2026-01-20 11:22:23"}
+{"level":"info","message":"Executing (e98bc19e-62b6-48ff-b096-4669b1062de0): ROLLBACK;","timestamp":"2026-01-20 11:22:23"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-20 11:22:23"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:22:23 +0000] \"POST /api/usuarios HTTP/1.1\" 500 58 \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:22:23"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 11:22:37"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 11:22:37"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 11:22:37"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 11:22:37"}
+{"level":"info","message":"📊 Process ID: 2416","timestamp":"2026-01-20 11:22:37"}
+{"level":"info","message":"Executing (8b6eeb32-e91c-4100-971d-9c9332506704): START TRANSACTION;","timestamp":"2026-01-20 11:22:45"}
+{"level":"info","message":"Executing (8b6eeb32-e91c-4100-971d-9c9332506704): INSERT INTO `usuarios` (`id_usuario`,`nombre_completo`,`correo`,`proveedor_login`,`id_microsoft`,`fecha_registro`,`estado`) VALUES (DEFAULT,?,?,?,?,?,?);","timestamp":"2026-01-20 11:22:45"}
+{"level":"info","message":"Executing (8b6eeb32-e91c-4100-971d-9c9332506704): ROLLBACK;","timestamp":"2026-01-20 11:22:45"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-20 11:22:45"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:22:45 +0000] \"POST /api/usuarios HTTP/1.1\" 500 58 \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:22:45"}
+{"level":"info","message":"Executing (1a35e92a-1272-4fb2-afff-c10d885d3c27): START TRANSACTION;","timestamp":"2026-01-20 11:26:10"}
+{"level":"info","message":"Executing (1a35e92a-1272-4fb2-afff-c10d885d3c27): INSERT INTO `usuarios` (`id_usuario`,`nombre_completo`,`correo`,`proveedor_login`,`id_microsoft`,`fecha_registro`,`estado`) VALUES (DEFAULT,?,?,?,?,?,?);","timestamp":"2026-01-20 11:26:10"}
+{"level":"info","message":"Executing (1a35e92a-1272-4fb2-afff-c10d885d3c27): ROLLBACK;","timestamp":"2026-01-20 11:26:10"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-20 11:26:10"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:26:10 +0000] \"POST /api/usuarios HTTP/1.1\" 500 58 \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:26:10"}
+{"level":"info","message":"Executing (75054cf3-4ecd-4f67-bcb6-90818f23344b): START TRANSACTION;","timestamp":"2026-01-20 11:27:14"}
+{"level":"info","message":"Executing (75054cf3-4ecd-4f67-bcb6-90818f23344b): INSERT INTO `usuarios` (`id_usuario`,`nombre_completo`,`correo`,`proveedor_login`,`id_microsoft`,`fecha_registro`,`estado`) VALUES (DEFAULT,?,?,?,?,?,?);","timestamp":"2026-01-20 11:27:14"}
+{"level":"info","message":"Executing (75054cf3-4ecd-4f67-bcb6-90818f23344b): ROLLBACK;","timestamp":"2026-01-20 11:27:14"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-20 11:27:14"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:27:14 +0000] \"POST /api/usuarios HTTP/1.1\" 500 58 \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:27:14"}
+{"level":"info","message":"Executing (a1064262-b378-46b5-bb4f-5508bebb5424): START TRANSACTION;","timestamp":"2026-01-20 11:28:17"}
+{"level":"info","message":"Executing (a1064262-b378-46b5-bb4f-5508bebb5424): INSERT INTO `usuarios` (`id_usuario`,`nombre_completo`,`correo`,`proveedor_login`,`id_microsoft`,`fecha_registro`,`estado`) VALUES (DEFAULT,?,?,?,?,?,?);","timestamp":"2026-01-20 11:28:17"}
+{"level":"info","message":"Executing (a1064262-b378-46b5-bb4f-5508bebb5424): COMMIT;","timestamp":"2026-01-20 11:28:17"}
+{"correo_usuario":"juan.perez@gmail.com","id_usuario":17,"level":"info","message":"Usuario creado satisfactoriamente","timestamp":"2026-01-20 11:28:17"}
+{"level":"info","message":"Handled POST /usuarios request","timestamp":"2026-01-20 11:28:17"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:28:17 +0000] \"POST /api/usuarios HTTP/1.1\" 201 215 \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:28:17"}
+{"level":"info","message":"Executing (d317cb9d-8753-4e4c-9a72-b556e43de43e): START TRANSACTION;","timestamp":"2026-01-20 11:34:27"}
+{"level":"info","message":"Executing (d317cb9d-8753-4e4c-9a72-b556e43de43e): INSERT INTO `usuarios` (`id_usuario`,`nombre_completo`,`correo`,`proveedor_login`,`id_microsoft`,`fecha_registro`,`estado`) VALUES (DEFAULT,?,?,?,?,?,?);","timestamp":"2026-01-20 11:34:27"}
+{"level":"info","message":"Executing (d317cb9d-8753-4e4c-9a72-b556e43de43e): COMMIT;","timestamp":"2026-01-20 11:34:27"}
+{"correo_usuario":"mario.diaz@gmail.com","id_usuario":18,"level":"info","message":"Usuario creado satisfactoriamente","timestamp":"2026-01-20 11:34:27"}
+{"level":"info","message":"Handled POST /usuarios request","timestamp":"2026-01-20 11:34:27"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:34:27 +0000] \"POST /api/usuarios HTTP/1.1\" 201 218 \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:34:27"}
+{"level":"info","message":"Executing (63dd0c23-6741-4633-a21b-509a8ef3dca0): START TRANSACTION;","timestamp":"2026-01-20 11:35:08"}
+{"level":"info","message":"Executing (63dd0c23-6741-4633-a21b-509a8ef3dca0): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`id_usuario` = '2';","timestamp":"2026-01-20 11:35:08"}
+{"level":"info","message":"Executing (63dd0c23-6741-4633-a21b-509a8ef3dca0): DELETE FROM `usuarios` WHERE `id_usuario` = 2","timestamp":"2026-01-20 11:35:08"}
+{"level":"info","message":"Executing (63dd0c23-6741-4633-a21b-509a8ef3dca0): ROLLBACK;","timestamp":"2026-01-20 11:35:08"}
+{"error":"Cannot delete or update a parent row: a foreign key constraint fails (`projectdb`.`ordenes`, CONSTRAINT `fk_orden_usuario` FOREIGN KEY (`id_usuario`) REFERENCES `usuarios` (`id_usuario`) ON UPDATE CASCADE)","id_usuario":"2","level":"error","message":"Error eliminando usuario","timestamp":"2026-01-20 11:35:08"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:35:08 +0000] \"DELETE /api/usuarios/2 HTTP/1.1\" 500 247 \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:35:08"}
+{"level":"info","message":"Executing (7d8752e5-5dec-4e70-84fc-63b7812b9d40): START TRANSACTION;","timestamp":"2026-01-20 11:48:46"}
+{"level":"info","message":"Executing (7d8752e5-5dec-4e70-84fc-63b7812b9d40): INSERT INTO `usuarios` (`id_usuario`,`nombre_completo`,`correo`,`proveedor_login`,`id_microsoft`,`fecha_registro`,`estado`) VALUES (DEFAULT,?,?,?,?,?,?);","timestamp":"2026-01-20 11:48:46"}
+{"level":"info","message":"Executing (7d8752e5-5dec-4e70-84fc-63b7812b9d40): COMMIT;","timestamp":"2026-01-20 11:48:46"}
+{"correo_usuario":"miguel.martz@gmail.com","id_usuario":19,"level":"info","message":"Usuario creado satisfactoriamente","timestamp":"2026-01-20 11:48:46"}
+{"level":"info","message":"Handled POST /usuarios request","timestamp":"2026-01-20 11:48:46"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:48:46 +0000] \"POST /api/usuarios HTTP/1.1\" 201 224 \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:48:46"}
+{"level":"info","message":"Executing (cef92ad3-ad4e-42ef-8fa4-c6697cdab2b6): START TRANSACTION;","timestamp":"2026-01-20 11:49:21"}
+{"level":"info","message":"Executing (cef92ad3-ad4e-42ef-8fa4-c6697cdab2b6): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`id_usuario` = '19';","timestamp":"2026-01-20 11:49:21"}
+{"level":"info","message":"Executing (cef92ad3-ad4e-42ef-8fa4-c6697cdab2b6): DELETE FROM `usuarios` WHERE `id_usuario` = 19","timestamp":"2026-01-20 11:49:21"}
+{"level":"info","message":"Executing (cef92ad3-ad4e-42ef-8fa4-c6697cdab2b6): COMMIT;","timestamp":"2026-01-20 11:49:21"}
+{"id_usuario":"19","level":"info","message":"Usuario eliminado satisfactoriamente","timestamp":"2026-01-20 11:49:21"}
+{"level":"info","message":"Handled DELETE /usuarios/19 request","timestamp":"2026-01-20 11:49:21"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:49:21 +0000] \"DELETE /api/usuarios/19 HTTP/1.1\" 200 274 \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:49:21"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-20 11:50:09"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-20 11:50:09"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:50:09 +0000] \"GET /api/auth/google/url HTTP/1.1\" 200 422 \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:50:09"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-20 11:50:22"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:50:22 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC1Fxm6UIANgH5m1JNtXj7c4lvfU5Ei9pv2Cn_Kw7g1P-VTWzs1q4CE0y2Yd2_cFWQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent HTTP/1.1\" 200 142 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"\n","timestamp":"2026-01-20 11:50:22"}
+{"level":"info","message":"Executing (fa27e34d-48be-40d5-8b10-d8be3bbaf846): START TRANSACTION;","timestamp":"2026-01-20 11:50:32"}
+{"error":"invalid_request","level":"error","message":"Error verificando código Google","timestamp":"2026-01-20 11:50:33"}
+{"level":"info","message":"Executing (fa27e34d-48be-40d5-8b10-d8be3bbaf846): ROLLBACK;","timestamp":"2026-01-20 11:50:33"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en login Google","timestamp":"2026-01-20 11:50:33"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:50:33 +0000] \"POST /api/auth/google/login HTTP/1.1\" 401 77 \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:50:33"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/login - POST - ::1","timestamp":"2026-01-20 11:50:33"}
+{"level":"info","message":"Executing (d428d4e4-5aed-48c3-aa70-1491e453f304): START TRANSACTION;","timestamp":"2026-01-20 11:51:13"}
+{"error":"invalid_request","level":"error","message":"Error verificando código Google","timestamp":"2026-01-20 11:51:13"}
+{"level":"info","message":"Executing (d428d4e4-5aed-48c3-aa70-1491e453f304): ROLLBACK;","timestamp":"2026-01-20 11:51:13"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en login Google","timestamp":"2026-01-20 11:51:13"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:51:13 +0000] \"POST /api/auth/google/login HTTP/1.1\" 401 77 \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:51:13"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/login - POST - ::1","timestamp":"2026-01-20 11:51:13"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 11:54:43"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 11:54:43"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 11:54:43"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 11:54:43"}
+{"level":"info","message":"📊 Process ID: 15220","timestamp":"2026-01-20 11:54:43"}
+{"level":"info","message":"Executing (ae20d107-681a-4451-820e-a3245e34252c): START TRANSACTION;","timestamp":"2026-01-20 11:54:57"}
+{"level":"info","message":"Executing (75ecec7c-4cee-4a52-b713-15530af8c587): START TRANSACTION;","timestamp":"2026-01-20 11:54:57"}
+{"error":"invalid_grant","level":"error","message":"Error verificando código Google","timestamp":"2026-01-20 11:54:57"}
+{"level":"info","message":"Executing (ae20d107-681a-4451-820e-a3245e34252c): ROLLBACK;","timestamp":"2026-01-20 11:54:57"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en login Google","timestamp":"2026-01-20 11:54:57"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:54:57 +0000] \"POST /api/auth/google/login HTTP/1.1\" 401 77 \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:54:57"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/login - POST - ::1","timestamp":"2026-01-20 11:54:57"}
+{"error":"invalid_grant","level":"error","message":"Error verificando código Google","timestamp":"2026-01-20 11:54:57"}
+{"level":"info","message":"Executing (75ecec7c-4cee-4a52-b713-15530af8c587): ROLLBACK;","timestamp":"2026-01-20 11:54:57"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en login Google","timestamp":"2026-01-20 11:54:57"}
+{"level":"info","message":"::1 - - [20/Jan/2026:17:54:57 +0000] \"POST /api/auth/google/login HTTP/1.1\" 401 77 \"-\" \"yaak\"\n","timestamp":"2026-01-20 11:54:57"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/login - POST - ::1","timestamp":"2026-01-20 11:54:57"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 12:02:33"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 12:02:33"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 12:02:33"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 12:02:33"}
+{"level":"info","message":"📊 Process ID: 14184","timestamp":"2026-01-20 12:02:33"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-20 12:02:37"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-20 12:02:37"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:02:37 +0000] \"GET /api/auth/google/url HTTP/1.1\" 200 422 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:02:37"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-20 12:02:44"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:02:44 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC0hyf4Lc_kcrskuaid6JfU-rw9t2S7wqXN88K_B6Iomnerd4T6OXlesFuaCKa2ndQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent HTTP/1.1\" 200 142 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"\n","timestamp":"2026-01-20 12:02:44"}
+{"level":"info","message":"Executing (8267484e-9756-4562-a3b8-6a65b46ed0a7): START TRANSACTION;","timestamp":"2026-01-20 12:02:54"}
+{"email":"udiaz375@gmail.com","level":"info","message":"Código Google verificado","timestamp":"2026-01-20 12:02:55"}
+{"level":"info","message":"Executing (8267484e-9756-4562-a3b8-6a65b46ed0a7): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'udiaz375@gmail.com';","timestamp":"2026-01-20 12:02:55"}
+{"level":"info","message":"Executing (8267484e-9756-4562-a3b8-6a65b46ed0a7): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`id_microsoft` = '102548567445378589010';","timestamp":"2026-01-20 12:02:55"}
+{"level":"info","message":"Executing (8267484e-9756-4562-a3b8-6a65b46ed0a7): INSERT INTO `usuarios` (`id_usuario`,`nombre_completo`,`correo`,`proveedor_login`,`id_microsoft`,`fecha_registro`,`estado`) VALUES (DEFAULT,?,?,?,?,?,?);","timestamp":"2026-01-20 12:02:55"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-20 12:02:55","user_id":20}
+{"level":"info","message":"Executing (8267484e-9756-4562-a3b8-6a65b46ed0a7): COMMIT;","timestamp":"2026-01-20 12:02:55"}
+{"level":"info","message":"Registro con Google exitoso","timestamp":"2026-01-20 12:02:55","user_id":20}
+{"id_usuario":20,"level":"info","message":"Handled POST /auth/google/register request","timestamp":"2026-01-20 12:02:55"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:02:55 +0000] \"POST /api/auth/google/register HTTP/1.1\" 201 165 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:02:55"}
+{"level":"info","message":"Executing (5c46e821-ebd6-4787-af5f-11e235488538): START TRANSACTION;","timestamp":"2026-01-20 12:03:04"}
+{"error":"invalid_grant","level":"error","message":"Error verificando código Google","timestamp":"2026-01-20 12:03:04"}
+{"level":"info","message":"Executing (5c46e821-ebd6-4787-af5f-11e235488538): ROLLBACK;","timestamp":"2026-01-20 12:03:04"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en login Google","timestamp":"2026-01-20 12:03:04"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:03:04 +0000] \"POST /api/auth/google/login HTTP/1.1\" 401 77 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:03:04"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/login - POST - ::1","timestamp":"2026-01-20 12:03:04"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-20 12:03:59"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-20 12:03:59"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:03:59 +0000] \"GET /api/auth/google/url HTTP/1.1\" 200 422 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:03:59"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-20 12:04:04"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:04:04 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC3dc2c3vQ9NvYydPleZE_4ao6aiyp6sjqrpOQjdNR_DhVAEr_xNKbobYNN6oaulUw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none HTTP/1.1\" 200 142 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"\n","timestamp":"2026-01-20 12:04:04"}
+{"level":"info","message":"Executing (be18fc2e-767f-46e2-8607-8ba0048477e8): START TRANSACTION;","timestamp":"2026-01-20 12:04:15"}
+{"email":"udiaz375@gmail.com","level":"info","message":"Código Google verificado","timestamp":"2026-01-20 12:04:15"}
+{"level":"info","message":"Executing (be18fc2e-767f-46e2-8607-8ba0048477e8): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'udiaz375@gmail.com';","timestamp":"2026-01-20 12:04:15"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-20 12:04:15","user_id":20}
+{"level":"info","message":"Executing (be18fc2e-767f-46e2-8607-8ba0048477e8): COMMIT;","timestamp":"2026-01-20 12:04:15"}
+{"level":"info","message":"Login Google exitoso","timestamp":"2026-01-20 12:04:15","user_id":20}
+{"id_usuario":20,"level":"info","message":"Handled POST /auth/google/login request","timestamp":"2026-01-20 12:04:15"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:04:15 +0000] \"POST /api/auth/google/login HTTP/1.1\" 200 201 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:04:15"}
+{"level":"info","message":"Handled POST /auth/logout request","timestamp":"2026-01-20 12:09:39"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:09:39 +0000] \"POST /api/auth/logout HTTP/1.1\" 200 63 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:09:39"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:10:30 +0000] \"POST /api/auth/microsoft/register HTTP/1.1\" 400 110 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:10:30"}
+{"level":"error","message":"500 - Cannot destructure property 'code' of 'req.body' as it is undefined. - /api/auth/microsoft/register - POST - ::1","timestamp":"2026-01-20 12:10:30"}
+{"level":"info","message":"URL de autorización Microsoft generada","timestamp":"2026-01-20 12:28:16"}
+{"level":"info","message":"Handled GET /auth/microsoft/url request","timestamp":"2026-01-20 12:28:16"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:28:16 +0000] \"GET /api/auth/microsoft/url HTTP/1.1\" 200 522 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:28:16"}
+{"level":"info","message":"Handled GET /auth/microsoft/callback request","timestamp":"2026-01-20 12:28:21"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:28:21 +0000] \"GET /api/auth/microsoft/callback?code=1.AQQAA8CMBd7ly06gJJm9DVC73au0KcJOL61OuNpynuYMVOkEAVwEAA.BQABBAIAAAADAOz_BQD0_0V2b1N0c0FydGlmYWN0cwIAAAAAADoE6fNp7wWbb5rRVZSTBwiaHXYVw5jC8oR2amprb-w_T_6zoz-dkXEZc77QaPMuyy2F8Q57O7u0n1WNdtrVPcZAIjklpwmHEs0OW3zcyMFSI7uoszZtViefGB1fYzrvsmaNRMt7E8VKxQTMAcn8MNqu13mKh1Vxb2RDruMnUSRxaESaTWV6faacPUJP_UIQKaS8DQkgCj44V8rw6XQUYuFyCGp3MnqB04X2j3A68uTFb8vXkp_19g0OP7_bFicNlKrC6RmoLhsGaMj8ASWUtR_2ZATb4K9R_nuIssNTgKLAEGDFNa266Z43iIWpVgdNMvC_KzDcVuYIHkv9eSM6cMWHC09dFKyZKzAtmEsmReQG37CRaflhKE0Z1pcmRzgaHh2-Zx8jZD8rgIZUUFxFGgPvCehfATCsIr1Oc56LZP83sKqEcK0C0KUFts61LcRyZ9YoJsxsQL1viol_IJWb4aaSsAiWmSLTZ11t1I7yMYFyTfJx7vQdL5qqtqA84-3XWpM69IEVrQclARu0_UIJyyC9GQyG3qiI3PX-k7kmhgNwSEbqfYcvzmhfWSwemKnnlOU8d4qXzN0Xc11geHKZEOQb9x1xdljqpUNlJapP4LqMiBfh4GzORKQdcDQy6YQaAfd69lCvp8E3qwddlvyT5Ru7_loTNCKfeBWjQkjwRWLxV0CPRS9iyiCnKk91BFi-PLjEt-arufF2jscNg8L-C29QynIECH3bFyTQjtFq6MUYZiOxP4mAku6vPEQkvD22ePfNO5wfIrMvAjgRbCdB3zPj-P5r8hmFfNqSMHybw9pyhxLt4c79sXVrdTrTq-J0GqDW4lX3PpI5Up2Wa06WE_qgLDqOl7j4lKQXVeV-Zc62O_0vEAEqDWg8me3woOh82uLmTpK91K6fOWYM3VG_win7jmr-39Ms0GvScqSmzHzsbFyrxPzJCRmu6WVvIiEDzuSkK6Sx-lvTVaQFhiciOr_AI5-D7UcQ8Yt0TAfX122Obo2JaAL-40dYfXN2p8IgxYUw-o_HDSS3ErTdE3rmiYAMIqSY4Eo-EdobOhpabc5GSImNByGvVNNFc_lbTb1RVKzeg9_ZCXzh9px0j7kQW0Cv9ffnJr6JpP9pxXruP__OrXjKAeoKs0jb1aE79zURmioxE3z5-V-uGVO503SUhYUn2Jx8GuX6GsvULiG00krPHPQoYwk2Qw9PsS9gS904cf8xiDLehLQ26J4_mhFHriyWBtjk2khVytf28y7VI-veyqDHT5WPinbohI0idhZ2TZcG7JwJYgULKs30KxWOA4M3t5uMQY8zbC1r9uifulcYbWFlpQQj7NiYq4pWZwfgNeu1Y54OhKkDaMuKgHINmEoX8pldZ4C3beADanIdRtIPhHbF1SHC0_8gxLQH&client_info=eyJ1aWQiOiIxNTA1Mzg1Ni1iYjg1LTRjMDgtYTBmYi0xYmUxMTI3NWYyYjIiLCJ1dGlkIjoiMDU4Y2MwMDMtZTVkZS00ZWNiLWEwMjQtOTliZDBkNTBiYmRkIn0&session_state=0011e23a-e2e7-07c9-584b-a2fa4d264617 HTTP/1.1\" 200 1588 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"\n","timestamp":"2026-01-20 12:28:21"}
+{"level":"info","message":"Executing (bd6077c4-a5a9-4f4e-937f-4c1184821462): START TRANSACTION;","timestamp":"2026-01-20 12:28:36"}
+{"email":"ad24i04002@usonsonate.edu.sv","level":"info","message":"Código Microsoft verificado","timestamp":"2026-01-20 12:28:38"}
+{"level":"info","message":"Executing (bd6077c4-a5a9-4f4e-937f-4c1184821462): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'ad24i04002@usonsonate.edu.sv';","timestamp":"2026-01-20 12:28:38"}
+{"level":"info","message":"Executing (bd6077c4-a5a9-4f4e-937f-4c1184821462): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`id_microsoft` = '15053856-bb85-4c08-a0fb-1be11275f2b2';","timestamp":"2026-01-20 12:28:38"}
+{"level":"info","message":"Executing (bd6077c4-a5a9-4f4e-937f-4c1184821462): INSERT INTO `usuarios` (`id_usuario`,`nombre_completo`,`correo`,`proveedor_login`,`id_microsoft`,`fecha_registro`,`estado`) VALUES (DEFAULT,?,?,?,?,?,?);","timestamp":"2026-01-20 12:28:38"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-20 12:28:38","user_id":21}
+{"level":"info","message":"Executing (bd6077c4-a5a9-4f4e-937f-4c1184821462): COMMIT;","timestamp":"2026-01-20 12:28:38"}
+{"level":"info","message":"Registro con Microsoft exitoso","timestamp":"2026-01-20 12:28:38","user_id":21}
+{"id_usuario":21,"level":"info","message":"Handled POST /auth/microsoft/register request","timestamp":"2026-01-20 12:28:38"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:28:38 +0000] \"POST /api/auth/microsoft/register HTTP/1.1\" 201 178 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:28:38"}
+{"level":"info","message":"Executing (80d4f9c2-d777-4772-b627-d70ea8531a8d): START TRANSACTION;","timestamp":"2026-01-20 12:28:50"}
+{"error":"invalid_grant: Error(s): 54005 - Timestamp: 2026-01-20 18:28:52Z - Description: AADSTS54005: OAuth2 Authorization code was already redeemed, please retry with a new valid code or use an existing refresh token. Trace ID: ef5d8770-1644-4ec0-b003-448483277a00 Correlation ID: ad6e4082-4074-4347-bda1-ecf97c4db96f Timestamp: 2026-01-20 18:28:52Z - Correlation ID: ad6e4082-4074-4347-bda1-ecf97c4db96f - Trace ID: ef5d8770-1644-4ec0-b003-448483277a00","level":"error","message":"Error verificando código Microsoft","timestamp":"2026-01-20 12:28:50"}
+{"level":"info","message":"Executing (80d4f9c2-d777-4772-b627-d70ea8531a8d): ROLLBACK;","timestamp":"2026-01-20 12:28:50"}
+{"error":"Código Microsoft inválido o expirado","level":"error","message":"Error en login Microsoft","timestamp":"2026-01-20 12:28:50"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:28:50 +0000] \"POST /api/auth/microsoft/login HTTP/1.1\" 401 80 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:28:50"}
+{"level":"error","message":"401 - Código Microsoft inválido o expirado - /api/auth/microsoft/login - POST - ::1","timestamp":"2026-01-20 12:28:51"}
+{"level":"info","message":"URL de autorización Microsoft generada","timestamp":"2026-01-20 12:29:23"}
+{"level":"info","message":"Handled GET /auth/microsoft/url request","timestamp":"2026-01-20 12:29:23"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:29:23 +0000] \"GET /api/auth/microsoft/url HTTP/1.1\" 200 522 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:29:23"}
+{"level":"info","message":"Handled GET /auth/microsoft/callback request","timestamp":"2026-01-20 12:29:33"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:29:33 +0000] \"GET /api/auth/microsoft/callback?code=1.AQQAA8CMBd7ly06gJJm9DVC73au0KcJOL61OuNpynuYMVOkEAVwEAA.BQABBAIAAAADAOz_BQD0_0V2b1N0c0FydGlmYWN0cwIAAAAAAN5pC1UVTwZvfWChE3jwlB28lpFQyqwcH6Com_HAkfSZNwau5TmD9_fnT2oMZgsVxMCWce8GWDuhgoLMwDglYAFqRE14Wa0LczyB9znrz9csghPHPsN7QJQKfZt5h-Vi1BdR0CrxNEtZOox0UQjTkt8PvRjHdva5GS-Btm4F1VocKyPCoTHd1sx9q1oPfD0LG0je2-m8FF1ighDLi0dBp_jJhuX3hiWvYxccsZVOuJIKZrQ_bOF_uP-_KIZYRmzGNSZib_wDZ-wArIW8iDbjjghSVKO3eA7mjZ99yaHBsRLnYSH5uFA9ku8Wu2kC2TBIfkpGv6hdZHlb7fizbPIgYAy5w5HYJMkdO2CyVkASIuY28L1C2eVmsw8zX2apcV3NpEWUFCyZCs_d_Yq5t1TuWPOo450NCOh6ia3nkkZNtuTP8GifO6za_iAgHzTDENmhUi7Hj1NR7MeSHYsVF7VDKjG4qb1TmcLvF4RrleoAuJKQx61KaXAoi4cX2gwtUxkAYgbNpl5xjHPR2_-RbrVkmRrQ9kQWH7hCQu76FvAstBnKVVSqxC0fhT0mj2qHSN_Kq07eznWbOiJ3HsOYo-v_kQQ6l7-IsIDuFKjf1GOeuAQfZZvInuENHDDMNhtXemGuNUfv3p5j_tF6qzEP218Kr0uqMyPMl-MaOpd2-pXgrTsCzGT3m-sIo7Z84g5-9MdsUBIdK7ES4azLcwt5vnHGPuvMVVvE78Grco5gRr-mwHifOzuJ6RitFsHm4G8cwxFEwjgJ4HH8D7HTFzE3Byl4ObXO_Sxb2J6etH4q2u4O0JyABvfsIeqbv5931fgCUowaKr6Dmuk3-fTYtlA8OccGHoFz6o-hZOwwM39nSsfEeIdPiKg4Q6HFlyk0Rm1T0YZHzDjK075jL3xEFjghCj8c520EIrCE9M-rhhsBjKyiJhSTI-KUvFrmn8x-xkeE47fPrSxP9Q4OS2tWx60LrVcpngHrOROm2vxJywRk1UxiJ96QJxZ46wfY6dBk1_7cV2udAii4XCm4FHPkRbz2wKCCuhSBKY44DQdA64GV-oWXDTn5i4_hpjJ_9qdVVYR8e83c4gKLDC29eyE2Coa_1v08WNdVmbqVidwoCDCwVJyFxOB0mwO55ISqCcoG2BkQoWO37Rg9ngR_3rUgPFbI5c4zM-VepGWq4sipRD7FnQazwjK8LqlNS4-i5XuTX9bx88HzKrzYT5hX_bRUdP9J1KYjw5232kczwHrhOSlyb6Nn-38UFdou44_9NprK2BYRLg2kMMqZl6T3f1p9lpPHiTRlrvuplILpks1d-NtS65bCezAENJBsTsnwxtxM9XPDKzAPH9sA8TJ76VHsOcHR38yrejWhczxA6jpPkfS16yJej_SuAltsI5OZ9Pp1ZPfK&client_info=eyJ1aWQiOiIxNTA1Mzg1Ni1iYjg1LTRjMDgtYTBmYi0xYmUxMTI3NWYyYjIiLCJ1dGlkIjoiMDU4Y2MwMDMtZTVkZS00ZWNiLWEwMjQtOTliZDBkNTBiYmRkIn0&session_state=0011e23a-e2e7-07c9-584b-a2fa4d264617 HTTP/1.1\" 200 1588 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"\n","timestamp":"2026-01-20 12:29:33"}
+{"level":"info","message":"Executing (b46d2810-9526-426b-8dd9-72faf90c5cef): START TRANSACTION;","timestamp":"2026-01-20 12:29:44"}
+{"email":"ad24i04002@usonsonate.edu.sv","level":"info","message":"Código Microsoft verificado","timestamp":"2026-01-20 12:29:45"}
+{"level":"info","message":"Executing (b46d2810-9526-426b-8dd9-72faf90c5cef): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'ad24i04002@usonsonate.edu.sv';","timestamp":"2026-01-20 12:29:45"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-20 12:29:45","user_id":21}
+{"level":"info","message":"Executing (b46d2810-9526-426b-8dd9-72faf90c5cef): COMMIT;","timestamp":"2026-01-20 12:29:45"}
+{"level":"info","message":"Login Microsoft exitoso","timestamp":"2026-01-20 12:29:45","user_id":21}
+{"id_usuario":21,"level":"info","message":"Handled POST /auth/microsoft/login request","timestamp":"2026-01-20 12:29:45"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:29:45 +0000] \"POST /api/auth/microsoft/login HTTP/1.1\" 200 217 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:29:45"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-20 12:33:08"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-20 12:33:08"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:33:08 +0000] \"GET /api/auth/google/url HTTP/1.1\" 200 422 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:33:08"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-20 12:33:41"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:33:41 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC2pwi-afkz9W9TU6M8GMyxx9pHNfId3gQWf8khIGzCgGlxVejqTYZLhe6jSwbMFUw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none HTTP/1.1\" 200 142 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"\n","timestamp":"2026-01-20 12:33:41"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-20 12:36:49"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-20 12:36:49"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-20 12:36:49"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:36:49 +0000] \"GET /api/usuarios HTTP/1.1\" 200 639 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:36:49"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 12:41:22"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 12:41:22"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 12:41:22"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 12:41:22"}
+{"level":"info","message":"📊 Process ID: 16424","timestamp":"2026-01-20 12:41:22"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 12:41:34"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 12:41:34"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 12:41:34"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 12:41:34"}
+{"level":"info","message":"📊 Process ID: 3652","timestamp":"2026-01-20 12:41:34"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-20 12:45:03"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-20 12:45:03"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-20 12:45:03"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:45:03 +0000] \"GET /api/usuarios HTTP/1.1\" 200 639 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:45:03"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 12:45:38"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 12:45:38"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 12:45:38"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 12:45:38"}
+{"level":"info","message":"📊 Process ID: 2612","timestamp":"2026-01-20 12:45:38"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-20 12:45:43"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-20 12:45:43"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-20 12:45:43"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:45:43 +0000] \"GET /api/usuarios HTTP/1.1\" 200 639 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:45:43"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-20 12:46:43"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-20 12:46:43"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-20 12:46:43"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:46:43 +0000] \"GET /api/usuarios HTTP/1.1\" 200 639 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:46:43"}
+{"level":"info","message":"Handled POST /auth/logout request","timestamp":"2026-01-20 12:47:49"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:47:49 +0000] \"POST /api/auth/logout HTTP/1.1\" 200 63 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:47:49"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:48:00 +0000] \"GET /api/usuarios HTTP/1.1\" 401 98 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:48:00"}
+{"level":"info","message":"URL de autorización Microsoft generada","timestamp":"2026-01-20 12:57:11"}
+{"level":"info","message":"Handled GET /auth/microsoft/url request","timestamp":"2026-01-20 12:57:11"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:57:11 +0000] \"GET /api/auth/microsoft/url HTTP/1.1\" 200 522 \"-\" \"yaak\"\n","timestamp":"2026-01-20 12:57:11"}
+{"level":"info","message":"Handled GET /auth/microsoft/callback request","timestamp":"2026-01-20 12:58:04"}
+{"level":"info","message":"::1 - - [20/Jan/2026:18:58:04 +0000] \"GET /api/auth/microsoft/callback?code=1.AQQAA8CMBd7ly06gJJm9DVC73au0KcJOL61OuNpynuYMVOkEAVwEAA.BQABBAIAAAADAOz_BQD0_0V2b1N0c0FydGlmYWN0cwIAAAAAAPm8-tcCfX3nCgP2KPBB5I1d97zPlR9buT8C9KUUP2xlVF_KLayeYE2aca3DHSAtXxkgh5NZz2D5v5OcjDKQsYpeL739wfgUkBIYftiNCU9qo2AUR9AG8D9gWOEoqPeUrTOD85puWY6H6gxJzybeVtFt1VG5nMtrSX8Yr4lELMnDTtbFKXckumx-LtgaJrFRG3GNbCgMVXuUyjUezFruydZZ7jyJfJs368p3WfuL2qbm8-lIiXu9h7R6a-w11CwoSMt-yj6GfhJkD7OzBF7w0fAjVWvBk-0RmEVOnPV59brE-KNZ1XcbEff2p4iV08g2g2gkH9BnA8fvQ_cixYKmW5IYyvUsP0vt43mAC7J-iYR2TN5IV41PxfZCRvnBu7mkOZzts84yVRhYpOhaYfzKUsdSggMaDGGfiXlzoMakoLBRoF4P1YrOSuNxy467Ps7DZF0teuBa6K_jEcjAWaR1K7k6jaApCExKnNKN6MOkrQKFAjhvzW7lQ782WkfIYevHzTcWqmnbLilHvKzUXYNPFHNCSQ0FsaPXWoRTDYEEanZH5zihduFkYX42FQ0_cB6BZCGnhV5-cyAXif6N4BY9dNI6JD9YDRzI9zWF02_LDS-P0wksBF-ymJHI2f0axTfElQldAb1qQBt0gKYINfXntCstHaM30V_ipzA0e7quIyQeT0zrQa6jXiT6ZrUQEdTLPT7m6fZ9Hs0pLlkfBjszC3w6cm833DnCtbwPi8iXioPcZYma-FQzdrrXNhI8ecPqNIO-yotDTetid9uCdEn0Euhg4TWBfNfGX_K56nnYNh6syVn697dYFb4cTob_QxEbSKi8AZ5jEdbKljzIhFrt0Rkl1ciQZwaDp7eqrUa3c3NBWUihJtf3RzfBfBDUL_f7Co0usd5B7M4l_EgVfQA7M1WLz_3NnPpxMdVw1hOlv3Phqk4-etq34dF47lw-Iq2o_VQDUwbxro0u4rTQNrz54EAaCE4zPKdreiDkAnwajEnkU0mG5-ZecL-FvfXw3P7KOar3A4NTyA9LWCLQg0FZmd_bLF13t48X5cn9YLK0ODaKWdDPLSM3wzWnS3DT2cyGkVP86VFEI_T3_7V_mOQMJ74pE4wxyY8i8vj3r1vfRwNHkmTYZcpR3O45hZqBJ9tNsyCUpMYQ4B05qZsoEZMXLU4dLi8TsBsuPH5jm9HVVJsEg5rtRSPxKAOpwXk_-3pdX9asw7b3Vo0L9B3BlJlBjljniT7m982Sw9DWp1D9zDwB63nrnm5bmfHIxcM3kdWd-WBJfOYb8_vLNxmZw6RYliuO6uhiAW0XasLsjU5wnvgv6QTbaVbarTeakWlAz7ZEE_l7GirwPpxjFpQiosDBNjg931YYL6LZmUkZVHBxYhIVVLW3lLM_tz9ZKDja&client_info=eyJ1aWQiOiIxNTA1Mzg1Ni1iYjg1LTRjMDgtYTBmYi0xYmUxMTI3NWYyYjIiLCJ1dGlkIjoiMDU4Y2MwMDMtZTVkZS00ZWNiLWEwMjQtOTliZDBkNTBiYmRkIn0&session_state=0011e23a-e2e7-07c9-584b-a2fa4d264617 HTTP/1.1\" 200 1588 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"\n","timestamp":"2026-01-20 12:58:04"}
+{"level":"info","message":"Handled POST /auth/logout request","timestamp":"2026-01-20 13:01:26"}
+{"level":"info","message":"::1 - - [20/Jan/2026:19:01:26 +0000] \"POST /api/auth/logout HTTP/1.1\" 200 63 \"-\" \"yaak\"\n","timestamp":"2026-01-20 13:01:26"}
+{"level":"info","message":"::1 - - [20/Jan/2026:19:01:33 +0000] \"PUT /api/usuarios/3 HTTP/1.1\" 500 122 \"-\" \"yaak\"\n","timestamp":"2026-01-20 13:01:33"}
+{"level":"info","message":"::1 - - [20/Jan/2026:19:01:45 +0000] \"GET /api/usuarios HTTP/1.1\" 401 98 \"-\" \"yaak\"\n","timestamp":"2026-01-20 13:01:45"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-20 13:10:31"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-20 13:10:31"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-20 13:10:31"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-20 13:10:32"}
+{"level":"info","message":"📊 Process ID: 2040","timestamp":"2026-01-20 13:10:32"}
+{"level":"info","message":"Handled POST /auth/logout request","timestamp":"2026-01-20 13:10:42"}
+{"level":"info","message":"::1 - - [20/Jan/2026:19:10:43 +0000] \"POST /api/auth/logout HTTP/1.1\" 200 63 \"-\" \"yaak\"\n","timestamp":"2026-01-20 13:10:43"}

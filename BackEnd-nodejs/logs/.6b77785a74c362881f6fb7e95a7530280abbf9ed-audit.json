@@ -1,0 +1,60 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "logs\\.6b77785a74c362881f6fb7e95a7530280abbf9ed-audit.json",
+    "files": [
+        {
+            "date": 1768780080733,
+            "name": "logs\\error-2026-01-18.log",
+            "hash": "309ed802281fabbdba3350f3e960e9590a151a5525bd03b3c70ae12dec7884da"
+        },
+        {
+            "date": 1768842595178,
+            "name": "logs\\error-2026-01-19.log",
+            "hash": "a2ccf94d4f2dead22ae6a22dfe8343f472962e130d1b0df7a96e56c89a5413b5"
+        },
+        {
+            "date": 1768928565592,
+            "name": "logs\\error-2026-01-20.log",
+            "hash": "5a661065c6fcb7e83f21d410e93a3838804b338ad038c1b3343f228501b70776"
+        },
+        {
+            "date": 1769372390451,
+            "name": "logs\\error-2026-01-25.log",
+            "hash": "7e254bc370c745e9be32a725ca3147da2f0673966f25391f48c5d3f22e7d92c1"
+        },
+        {
+            "date": 1769459988475,
+            "name": "logs\\error-2026-01-26.log",
+            "hash": "c43ae48f4d64e0be9ab157c93be3d514f7f0a1fa666832d8f8ffa1cd4a5a44a5"
+        },
+        {
+            "date": 1769616983418,
+            "name": "logs\\error-2026-01-28.log",
+            "hash": "ae7eb87fd1b283256ade7eaf7cbf700bc1b8a33a4d30c248c51ced5f33b1749e"
+        },
+        {
+            "date": 1769700972553,
+            "name": "logs\\error-2026-01-29.log",
+            "hash": "078b40bb28cb69a676d7618f5b4ac7c032c67ce60e275d5239ec8ba8efb52dac"
+        },
+        {
+            "date": 1769787768604,
+            "name": "logs\\error-2026-01-30.log",
+            "hash": "87eff526809784e9047a82a6a281216fd85cfbfcf2a7b9ea8e79dbc33890f261"
+        },
+        {
+            "date": 1769895686507,
+            "name": "logs\\error-2026-01-31.log",
+            "hash": "66c9652e3d22198b2079df3486b4cbf4c6a69ab8a9b67ef49119ae42928bbb3a"
+        },
+        {
+            "date": 1769926697602,
+            "name": "logs\\error-2026-02-01.log",
+            "hash": "5386b5c3c5b10ae5c2336b70f0d2960881f71505d7dce24d722b514c0c94ab83"
+        }
+    ],
+    "hashType": "sha256"
+}

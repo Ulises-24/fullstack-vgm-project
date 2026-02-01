@@ -1,0 +1,10 @@
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-26 14:39:49"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-26 14:39:49"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-26 14:39:49"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-26 14:39:49"}
+{"level":"info","message":"📊 Process ID: 13188","timestamp":"2026-01-26 14:39:49"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-26 14:43:30"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-26 14:43:30"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-26 14:43:30"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-26 14:43:30"}
+{"level":"info","message":"📊 Process ID: 7444","timestamp":"2026-01-26 14:43:30"}

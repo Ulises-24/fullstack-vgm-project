@@ -1,0 +1,130 @@
+:root {
+    --primary: #38bdf8;
+    --danger: #ef4444;
+    --success: #10b981;
+    --bg-dark: #0f172a;
+    --bg-card: #1e293b;
+    --text-muted: #94a3b8;
+}
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg,
+            var(--bg-dark) 0%,
+            var(--bg-card) 100%);
+
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: white;
+}
+
+.login-card {
+    background: rgba(15, 23, 42, 0.65);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    padding: 40px 32px;
+    width: 380px;
+
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.45);
+
+    text-align: center;
+    animation: fadeIn 0.8s ease-out;
+}
+
+.login-card h1 {
+    font-size: 2.1rem;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+
+.login-card p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 32px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    margin-top: 14px;
+
+    border-radius: 14px;
+    border: 1px solid transparent;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.login-btn:hover:not(:disabled) {
+    transform: translateY(-3px);
+}
+
+.login-btn:active {
+    transform: translateY(0);
+}
+
+.login-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.login-btn.google {
+    background: white;
+    color: #1e293b;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.login-btn.google:hover:not(:disabled) {
+    background: #f8fafc;
+}
+
+.login-btn.microsoft {
+    background: rgba(56, 189, 248, 0.15);
+    color: var(--primary);
+    border-color: rgba(56, 189, 248, 0.35);
+}
+
+.login-btn.microsoft:hover:not(:disabled) {
+    background: var(--primary);
+    color: white;
+}
+
+.error-text {
+    background: rgba(239, 68, 68, 0.12);
+    color: #f87171;
+
+    padding: 12px;
+    margin-bottom: 24px;
+
+    border-radius: 10px;
+    border: 1px solid rgba(239, 68, 68, 0.25);
+
+    font-size: 0.85rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

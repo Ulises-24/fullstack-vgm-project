@@ -1,0 +1,163 @@
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 17:48:02"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 17:48:02"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 17:48:02"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 17:48:02"}
+{"level":"info","message":"📊 Process ID: 12964","timestamp":"2026-01-18 17:48:02"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 17:49:41"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 17:49:41"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 17:49:41"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 17:49:41"}
+{"level":"info","message":"📊 Process ID: 7684","timestamp":"2026-01-18 17:49:41"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 17:51:29"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 17:51:29"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 17:51:29"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 17:51:29"}
+{"level":"info","message":"📊 Process ID: 17192","timestamp":"2026-01-18 17:51:29"}
+{"level":"info","message":"::1 - - [18/Jan/2026:23:51:46 +0000] \"GET / HTTP/1.1\" 200 81 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"\n","timestamp":"2026-01-18 17:51:46"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-18 17:57:33"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-18 17:57:33"}
+{"level":"info","message":"::1 - - [18/Jan/2026:23:57:33 +0000] \"GET /api/auth/google/url HTTP/1.1\" 200 288 \"-\" \"yaak\"\n","timestamp":"2026-01-18 17:57:33"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 18:11:47"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 18:11:47"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 18:11:47"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 18:11:47"}
+{"level":"info","message":"📊 Process ID: 16684","timestamp":"2026-01-18 18:11:47"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 18:12:03"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 18:12:03"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 18:12:03"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 18:12:03"}
+{"level":"info","message":"📊 Process ID: 5816","timestamp":"2026-01-18 18:12:03"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-18 18:12:16"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-18 18:12:16"}
+{"level":"info","message":"::1 - - [19/Jan/2026:00:12:16 +0000] \"GET /api/auth/google/url HTTP/1.1\" 200 350 \"-\" \"yaak\"\n","timestamp":"2026-01-18 18:12:16"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 18:17:09"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 18:17:09"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 18:17:09"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 18:17:09"}
+{"level":"info","message":"📊 Process ID: 14740","timestamp":"2026-01-18 18:17:09"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-18 18:17:17"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-18 18:17:17"}
+{"level":"info","message":"::1 - - [19/Jan/2026:00:17:17 +0000] \"GET /api/auth/google/url HTTP/1.1\" 200 350 \"-\" \"yaak\"\n","timestamp":"2026-01-18 18:17:17"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 18:19:35"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 18:19:35"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 18:19:35"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 18:19:35"}
+{"level":"info","message":"📊 Process ID: 9744","timestamp":"2026-01-18 18:19:35"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 18:22:08"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 18:22:08"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 18:22:08"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 18:22:08"}
+{"level":"info","message":"📊 Process ID: 12360","timestamp":"2026-01-18 18:22:08"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 18:22:23"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 18:22:23"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 18:22:23"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 18:22:23"}
+{"level":"info","message":"📊 Process ID: 3984","timestamp":"2026-01-18 18:22:23"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 18:22:29"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 18:22:29"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 18:22:29"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 18:22:29"}
+{"level":"info","message":"📊 Process ID: 552","timestamp":"2026-01-18 18:22:29"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-18 18:22:44"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-18 18:22:44"}
+{"level":"info","message":"::1 - - [19/Jan/2026:00:22:44 +0000] \"GET /api/auth/google/url HTTP/1.1\" 200 350 \"-\" \"yaak\"\n","timestamp":"2026-01-18 18:22:44"}
+{"level":"info","message":"::1 - - [19/Jan/2026:00:28:43 +0000] \"GET / HTTP/1.1\" 200 81 \"-\" \"yaak\"\n","timestamp":"2026-01-18 18:28:43"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-18 18:28:57"}
+{"count":2,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-18 18:28:57"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-18 18:28:57"}
+{"level":"info","message":"::1 - - [19/Jan/2026:00:28:57 +0000] \"GET /api/usuarios HTTP/1.1\" 200 216 \"-\" \"yaak\"\n","timestamp":"2026-01-18 18:28:57"}
+{"level":"info","message":"::1 - - [19/Jan/2026:00:29:09 +0000] \"GET / HTTP/1.1\" 200 81 \"-\" \"yaak\"\n","timestamp":"2026-01-18 18:29:09"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-18 18:29:19"}
+{"count":2,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-18 18:29:19"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-18 18:29:19"}
+{"level":"info","message":"::1 - - [19/Jan/2026:00:29:19 +0000] \"GET /api/usuarios HTTP/1.1\" 200 216 \"-\" \"yaak\"\n","timestamp":"2026-01-18 18:29:19"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 20:54:28"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 20:54:28"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 20:54:28"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 20:54:28"}
+{"level":"info","message":"📊 Process ID: 10728","timestamp":"2026-01-18 20:54:28"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-18 20:55:09"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-18 20:55:09"}
+{"level":"info","message":"::1 - - [19/Jan/2026:02:55:09 +0000] \"GET /api/auth/google/url HTTP/1.1\" 200 248 \"-\" \"yaak\"\n","timestamp":"2026-01-18 20:55:09"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 21:00:59"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 21:00:59"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 21:00:59"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 21:00:59"}
+{"level":"info","message":"📊 Process ID: 3312","timestamp":"2026-01-18 21:00:59"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-18 21:01:19"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-18 21:01:19"}
+{"level":"info","message":"::1 - - [19/Jan/2026:03:01:19 +0000] \"GET /api/auth/google/url HTTP/1.1\" 200 320 \"-\" \"yaak\"\n","timestamp":"2026-01-18 21:01:19"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-18 21:02:13"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-18 21:02:13"}
+{"level":"info","message":"::1 - - [19/Jan/2026:03:02:13 +0000] \"GET /api/auth/google/url HTTP/1.1\" 200 320 \"-\" \"yaak\"\n","timestamp":"2026-01-18 21:02:13"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-18 21:02:25"}
+{"level":"info","message":"::1 - - [19/Jan/2026:03:02:25 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC0eavF56GJlMpJh9Q3-K6P3dcExWA3rN_mfOjpwtSfedGg-vfvv0WND_Gh__TvZHw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent HTTP/1.1\" 200 142 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"\n","timestamp":"2026-01-18 21:02:25"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 21:47:12"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 21:47:12"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 21:47:12"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 21:47:12"}
+{"level":"info","message":"📊 Process ID: 14156","timestamp":"2026-01-18 21:47:12"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 22:08:43"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 22:08:43"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 22:08:43"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 22:08:43"}
+{"level":"info","message":"📊 Process ID: 16504","timestamp":"2026-01-18 22:08:43"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 22:08:53"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 22:08:53"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 22:08:53"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 22:08:53"}
+{"level":"info","message":"📊 Process ID: 11540","timestamp":"2026-01-18 22:08:53"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-18 22:11:23"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-18 22:11:23"}
+{"level":"info","message":"::1 - - [19/Jan/2026:04:11:23 +0000] \"GET /api/auth/google/url HTTP/1.1\" 200 422 \"-\" \"yaak\"\n","timestamp":"2026-01-18 22:11:23"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-18 22:11:26"}
+{"count":2,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-18 22:11:26"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-18 22:11:26"}
+{"level":"info","message":"::1 - - [19/Jan/2026:04:11:26 +0000] \"GET /api/usuarios HTTP/1.1\" 200 216 \"-\" \"yaak\"\n","timestamp":"2026-01-18 22:11:26"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-18 22:12:13"}
+{"count":1,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-18 22:12:13"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-18 22:12:13"}
+{"level":"info","message":"::1 - - [19/Jan/2026:04:12:13 +0000] \"GET /api/ordenes HTTP/1.1\" 200 156 \"-\" \"yaak\"\n","timestamp":"2026-01-18 22:12:13"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 22:15:45"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 22:15:45"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 22:15:45"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 22:15:45"}
+{"level":"info","message":"📊 Process ID: 7200","timestamp":"2026-01-18 22:15:45"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 22:17:02"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 22:17:02"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 22:17:02"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 22:17:02"}
+{"level":"info","message":"📊 Process ID: 2192","timestamp":"2026-01-18 22:17:02"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 22:19:24"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 22:19:24"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 22:19:24"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 22:19:24"}
+{"level":"info","message":"📊 Process ID: 17180","timestamp":"2026-01-18 22:19:24"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-18 22:22:15"}
+{"level":"info","message":"::1 - - [19/Jan/2026:04:22:15 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC1ijZUyN1gscLwNAQCQ2Ge_INHu81UQJdD358brpMACGACgIrTMbe2vTBD1nvjoSg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent HTTP/1.1\" 200 142 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"\n","timestamp":"2026-01-18 22:22:15"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 22:35:08"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 22:35:08"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 22:35:08"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 22:35:08"}
+{"level":"info","message":"📊 Process ID: 1472","timestamp":"2026-01-18 22:35:08"}
+{"level":"info","message":"URL de autorización Microsoft generada","timestamp":"2026-01-18 22:36:20"}
+{"level":"info","message":"Handled GET /auth/microsoft/url request","timestamp":"2026-01-18 22:36:20"}
+{"level":"info","message":"::1 - - [19/Jan/2026:04:36:20 +0000] \"GET /api/auth/microsoft/url HTTP/1.1\" 200 522 \"-\" \"yaak\"\n","timestamp":"2026-01-18 22:36:20"}
+{"level":"info","message":"URL de autorización Microsoft generada","timestamp":"2026-01-18 22:38:31"}
+{"level":"info","message":"Handled GET /auth/microsoft/url request","timestamp":"2026-01-18 22:38:31"}
+{"level":"info","message":"::1 - - [19/Jan/2026:04:38:31 +0000] \"GET /api/auth/microsoft/url HTTP/1.1\" 200 522 \"-\" \"yaak\"\n","timestamp":"2026-01-18 22:38:31"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-18 22:57:08"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-18 22:57:08"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-18 22:57:08"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-18 22:57:08"}
+{"level":"info","message":"📊 Process ID: 12900","timestamp":"2026-01-18 22:57:08"}
+{"level":"info","message":"URL de autorización Microsoft generada","timestamp":"2026-01-18 22:57:12"}
+{"level":"info","message":"Handled GET /auth/microsoft/url request","timestamp":"2026-01-18 22:57:12"}
+{"level":"info","message":"::1 - - [19/Jan/2026:04:57:13 +0000] \"GET /api/auth/microsoft/url HTTP/1.1\" 200 522 \"-\" \"yaak\"\n","timestamp":"2026-01-18 22:57:13"}
+{"level":"info","message":"URL de autorización Microsoft generada","timestamp":"2026-01-18 22:58:42"}
+{"level":"info","message":"Handled GET /auth/microsoft/url request","timestamp":"2026-01-18 22:58:42"}
+{"level":"info","message":"::1 - - [19/Jan/2026:04:58:42 +0000] \"GET /api/auth/microsoft/url HTTP/1.1\" 200 522 \"-\" \"yaak\"\n","timestamp":"2026-01-18 22:58:42"}
+{"level":"info","message":"Handled GET /auth/microsoft/callback request","timestamp":"2026-01-18 22:58:49"}
+{"level":"info","message":"::1 - - [19/Jan/2026:04:58:49 +0000] \"GET /api/auth/microsoft/callback?code=1.AQQAA8CMBd7ly06gJJm9DVC73au0KcJOL61OuNpynuYMVOkEAVwEAA.AgABBAIAAACvnsHKEvvRQb3Bz3Qc7wnaAwDs_wUA9P9Fdm9TdHNBcnRpZmFjdHMCAAAAAABUClGWx63rB-7QsThOSTmllpGv7CmGW0nouXUBIOspfgXtISSTyjYvzdTy0Rwe6eV1cHir1AWnyiB5vqPZYC7XTEG5khbHgvAtqqUNuWO0Uk_ccxW77AC42m4PCkvXpntGYwbPHzYgWjC9sTqEepyc4TnGdCByh6B3phszuDmyTcJR7Nk1oNNaaWM-_prascCSLRbffcCfQtfZpvBWwJAZW1Md35yTWAOkZWEP6weyWmF1TlOIHnOkiT3vuNgKZtjhnm_C0ueGQ9UUoQnkMYYeGMpS8mj43Jt59XjGFoWVaPdyv1Ds7e9rgTRKO7xk6R5tAjg-Xz4-CmRLrc3GrOWcNCmSHeWbGA02SG4hAir5CBDsUQsAT9XRQWGrZ6Sr2pTNyrRUr37FzYpANHzpkg0fw3irOsdeblBYdOA40cvM-89GQjhj70FX5QxAdXCLjKiAWVd4plIZS-D1Ov0vFASmhI5J8exd6_RCpHk-vGqAd7olVfBykdHTkS3PNPoashYLPn6gNCjJoPjeyOnqaFSsvKsiOejT_OcvGUybpSAKbObCRPhfAen2rQtVAkLYUdciWNRv3ds17hEo0sbC0r1XJPtSl7RStYRR0-afXkLEgPVSL9QCUm7HtE1HEbUp2NIHef-P2ENaR0zAGLp32iwhvetXTZaXJb9NBdE7tqABFqAw5-JRptgg7gsZmij6DPLDRs0SmoIL8pJflOd9sYzT65WS4yY3jj2zksFo0xKpZdRPsjUivopJFG7pb6W54uz3z8KdFp3hNngrnrchPSdxJQUENPiw3eGjw-dSPhjwO8lCbgOyxZO-9C-dkKgfMIJq1diMpGaS1D97MW8ga4Vw51F3qKSjrKMCJXY7ZGXjYulHog&client_info=eyJ1aWQiOiIxNTA1Mzg1Ni1iYjg1LTRjMDgtYTBmYi0xYmUxMTI3NWYyYjIiLCJ1dGlkIjoiMDU4Y2MwMDMtZTVkZS00ZWNiLWEwMjQtOTliZDBkNTBiYmRkIn0&session_state=0011e23a-e2e7-07c9-584b-a2fa4d264617 HTTP/1.1\" 200 1086 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"\n","timestamp":"2026-01-18 22:58:49"}
+{"level":"info","message":"Handled GET /auth/microsoft/callback request","timestamp":"2026-01-18 22:59:10"}
+{"level":"info","message":"::1 - - [19/Jan/2026:04:59:10 +0000] \"GET /api/auth/microsoft/callback?code=1.AQQAA8CMBd7ly06gJJm9DVC73au0KcJOL61OuNpynuYMVOkEAVwEAA.AgABBAIAAACvnsHKEvvRQb3Bz3Qc7wnaAwDs_wUA9P9Fdm9TdHNBcnRpZmFjdHMCAAAAAACb_by9m-uyGyw64TrCzJ5nhQdqqj7t4QOt4B90Ivcv9q1pzy5T6Jyw4RUEL1lQ4KjPSMdepRB3Fu6gnqnOmLsSfG05BLISy4ND3MrJKcBX63fvOSt9cgITDGv7eJ_ONf5w0LcRNlwyGADdHRa83gV8D-bHEDIJ2cBPyxazarpY8PusChfil_8kPNVvZy7G_gteI4H86o-ev71OjHY8LmeSqL7ng90n26LYgcqc5M0TfR3m9XBoHDTVhguvk_rR28fuBTizeQr0r_xuZyN4JiWxsBPpxyIcEyMq7zdigge-sNmX_pgQYZc_ebLjHa4_l3g95ErVIVFcW0lOU3lrTSiyRW7AQAwLFLymhe7_DqCnKylgdRpUrOdZgXI5EnpVtP4TDTY17038_qI-wpqWgFjCSlqjcdmyEvmPJLQNR3OGKz2CYGbIqDfkZiuoMMQShdsJpHeuGlpbOzEWojmjERDslFn7xf6YvhQBFREfgKAvoU2lTIATWYQT7PHje7_Whuj2wW0bc0KC0N1TAYF9XykxRSHfisNAhIhjrf1g3ULkuV1AOw6hbLTXMYko9Y1f12eMdKLE_oPtOBYb8tacHTrCkVsW-8ePp3sOsYK_lU8p8r-CoZYY_sN8rgGFNEI_Qr0BERpGVJgKsDjylmPqdjXSuXow36GWHcqggNs4X7X1Rzm8LsgWLJXW8QdS0beN_e-NPwCCMzCJ64atoTWBDaAVB8rc3f5kr5vjtYLqFivPi8Q7g1iGT19ELMmJXTH8B0TRHWqGDH4GDBH-oySH3QBoM7rjn538KL-stItsrmErOP8efWPPaOYOuTS5rM85OvjQMMOMxNrWS4gsVqkPv5CrxfYErLJNDk-3ZW1LP47ma5ae7aA&client_info=eyJ1aWQiOiIxNTA1Mzg1Ni1iYjg1LTRjMDgtYTBmYi0xYmUxMTI3NWYyYjIiLCJ1dGlkIjoiMDU4Y2MwMDMtZTVkZS00ZWNiLWEwMjQtOTliZDBkNTBiYmRkIn0&session_state=0011e23a-e2e7-07c9-584b-a2fa4d264617 HTTP/1.1\" 200 1087 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"\n","timestamp":"2026-01-18 22:59:10"}

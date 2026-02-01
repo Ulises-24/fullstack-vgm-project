@@ -1,0 +1,27 @@
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 09:44:23"}
+{"level":"error","message":"Error en GET /ordenes/detalles/1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 09:44:23"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 09:44:35"}
+{"level":"error","message":"Error en GET /ordenes/detalles/4: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 09:44:35"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 10:07:33"}
+{"level":"error","message":"Error en GET /ordenes/detalles/4: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 10:07:33"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 10:51:22"}
+{"level":"error","message":"Error en GET /ordenes/detalles/1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 10:51:22"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 10:53:54"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 10:53:54"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 10:53:54"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 10:53:54"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 10:53:55"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 10:53:55"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 12:09:31"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 12:09:31"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 12:09:33"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden2: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 12:09:33"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 12:09:34"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden2: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 12:09:34"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 12:09:35"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden2: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 12:09:35"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 12:48:41"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden5: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 12:48:41"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 12:48:42"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden5: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 12:48:42"}
+{"error":"Cannot delete or update a parent row: a foreign key constraint fails (`projectdb`.`ordenes`, CONSTRAINT `fk_orden_usuario` FOREIGN KEY (`id_usuario`) REFERENCES `usuarios` (`id_usuario`) ON UPDATE CASCADE)","id_usuario":"18","level":"error","message":"Error eliminando usuario","timestamp":"2026-01-30 12:51:16"}

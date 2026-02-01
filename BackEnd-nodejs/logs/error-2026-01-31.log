@@ -1,0 +1,71 @@
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 16:16:17"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 16:16:17"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 16:16:19"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden2: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 16:16:19"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 16:16:21"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden3: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 16:16:21"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 16:16:22"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden4: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 16:16:22"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 16:16:24"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden5: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 16:16:24"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 19:39:26"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 19:39:26"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 20:56:24"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 20:56:24"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:03:58"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:03:58"}
+{"error":"Usuario no encontrado. Regístrate primero.","level":"error","message":"Error en login Google","timestamp":"2026-01-31 21:26:47"}
+{"level":"error","message":"404 - Usuario no encontrado. Regístrate primero. - /api/auth/google/login - POST - ::1","timestamp":"2026-01-31 21:26:47"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:38:18"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:38:18"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:44:15"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden5: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:44:15"}
+{"error":"invalid_grant","level":"error","message":"Error verificando código Google","timestamp":"2026-01-31 21:46:48"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en login Google","timestamp":"2026-01-31 21:46:48"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/login - POST - ::1","timestamp":"2026-01-31 21:46:48"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:48:48"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:48:48"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:48:53"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:48:53"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:48:55"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:48:55"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:50:33"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:50:33"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:53:00"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:53:00"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:53:05"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:53:05"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:53:25"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:53:25"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:55:47"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:55:47"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:55:48"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:55:48"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:55:49"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:55:49"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:55:53"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:55:53"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 21:58:48"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 21:58:48"}
+{"error":"Unknown column 'DetalleOrdens.nombre_producto' in 'field list'","level":"error","message":"Error obteniendo orden","orden_id":"6","timestamp":"2026-01-31 22:17:50"}
+{"level":"error","message":"500 - Unknown column 'DetalleOrdens.nombre_producto' in 'field list' - /api/ordenes/6 - GET - ::1","timestamp":"2026-01-31 22:17:50"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 22:22:20"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 22:22:20"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 22:25:42"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 22:25:42"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 22:25:44"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden2: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 22:25:44"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 22:25:46"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 22:25:46"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 22:30:17"}
+{"level":"error","message":"Error en GET /ordenes/detalles/undefined: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 22:30:17"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 22:37:41"}
+{"level":"error","message":"Error en GET /ordenes/detalles/undefined: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 22:37:41"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 22:44:06"}
+{"level":"error","message":"Error en GET /ordenes/detalles/undefined: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 22:44:06"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 22:46:21"}
+{"level":"error","message":"Error en GET /ordenes/detalles/undefined: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 22:46:21"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 22:51:21"}
+{"level":"error","message":"Error en GET /ordenes/detalles/undefined: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 22:51:21"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-31 22:51:33"}
+{"level":"error","message":"Error en GET /ordenes/detalles/undefined: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-31 22:51:33"}

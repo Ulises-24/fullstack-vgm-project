@@ -1,0 +1,30 @@
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-20 11:02:54"}
+{"level":"error","message":"500 - Invalid status code: undefined. Status code must be an integer. - /api/usuarios - POST - ::1","timestamp":"2026-01-20 11:02:54"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-20 11:17:53"}
+{"level":"error","message":"500 - Invalid status code: undefined. Status code must be an integer. - /api/usuarios - POST - ::1","timestamp":"2026-01-20 11:17:53"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-20 11:19:31"}
+{"level":"error","message":"500 - Invalid status code: undefined. Status code must be an integer. - /api/usuarios - POST - ::1","timestamp":"2026-01-20 11:19:31"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-20 11:22:23"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-20 11:22:45"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-20 11:26:10"}
+{"error":"Validation error","level":"error","message":"Error creando usuario","timestamp":"2026-01-20 11:27:14"}
+{"error":"Cannot delete or update a parent row: a foreign key constraint fails (`projectdb`.`ordenes`, CONSTRAINT `fk_orden_usuario` FOREIGN KEY (`id_usuario`) REFERENCES `usuarios` (`id_usuario`) ON UPDATE CASCADE)","id_usuario":"2","level":"error","message":"Error eliminando usuario","timestamp":"2026-01-20 11:35:08"}
+{"error":"invalid_request","level":"error","message":"Error verificando código Google","timestamp":"2026-01-20 11:50:33"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en login Google","timestamp":"2026-01-20 11:50:33"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/login - POST - ::1","timestamp":"2026-01-20 11:50:33"}
+{"error":"invalid_request","level":"error","message":"Error verificando código Google","timestamp":"2026-01-20 11:51:13"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en login Google","timestamp":"2026-01-20 11:51:13"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/login - POST - ::1","timestamp":"2026-01-20 11:51:13"}
+{"error":"invalid_grant","level":"error","message":"Error verificando código Google","timestamp":"2026-01-20 11:54:57"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en login Google","timestamp":"2026-01-20 11:54:57"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/login - POST - ::1","timestamp":"2026-01-20 11:54:57"}
+{"error":"invalid_grant","level":"error","message":"Error verificando código Google","timestamp":"2026-01-20 11:54:57"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en login Google","timestamp":"2026-01-20 11:54:57"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/login - POST - ::1","timestamp":"2026-01-20 11:54:57"}
+{"error":"invalid_grant","level":"error","message":"Error verificando código Google","timestamp":"2026-01-20 12:03:04"}
+{"error":"Código Google inválido o expirado","level":"error","message":"Error en login Google","timestamp":"2026-01-20 12:03:04"}
+{"level":"error","message":"401 - Código Google inválido o expirado - /api/auth/google/login - POST - ::1","timestamp":"2026-01-20 12:03:04"}
+{"level":"error","message":"500 - Cannot destructure property 'code' of 'req.body' as it is undefined. - /api/auth/microsoft/register - POST - ::1","timestamp":"2026-01-20 12:10:30"}
+{"error":"invalid_grant: Error(s): 54005 - Timestamp: 2026-01-20 18:28:52Z - Description: AADSTS54005: OAuth2 Authorization code was already redeemed, please retry with a new valid code or use an existing refresh token. Trace ID: ef5d8770-1644-4ec0-b003-448483277a00 Correlation ID: ad6e4082-4074-4347-bda1-ecf97c4db96f Timestamp: 2026-01-20 18:28:52Z - Correlation ID: ad6e4082-4074-4347-bda1-ecf97c4db96f - Trace ID: ef5d8770-1644-4ec0-b003-448483277a00","level":"error","message":"Error verificando código Microsoft","timestamp":"2026-01-20 12:28:50"}
+{"error":"Código Microsoft inválido o expirado","level":"error","message":"Error en login Microsoft","timestamp":"2026-01-20 12:28:50"}
+{"level":"error","message":"401 - Código Microsoft inválido o expirado - /api/auth/microsoft/login - POST - ::1","timestamp":"2026-01-20 12:28:51"}

@@ -1,0 +1,464 @@
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-30 09:43:02"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-30 09:43:02"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-30 09:43:02"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-30 09:43:02"}
+{"level":"info","message":"📊 Process ID: 8996","timestamp":"2026-01-30 09:43:02"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:43:54 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:43:54"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-30 09:44:01"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-30 09:44:01"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:44:01 +0000] \"GET /api/auth/google/url HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:44:01"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-30 09:44:06"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:44:06 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC3kyVit9GlOyabEt6-MEC7fe9UtPq3bjdv4Czwl6_GOX8qAzT7rqK0mWyz9wFXxNw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none HTTP/1.1\" 302 143 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:44:06"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:44:08 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:44:08"}
+{"level":"info","message":"Executing (28368636-0975-4b7d-a8e9-3365be6d2818): START TRANSACTION;","timestamp":"2026-01-30 09:44:08"}
+{"email":"udiaz375@gmail.com","level":"info","message":"Código Google verificado","timestamp":"2026-01-30 09:44:10"}
+{"level":"info","message":"Executing (28368636-0975-4b7d-a8e9-3365be6d2818): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'udiaz375@gmail.com';","timestamp":"2026-01-30 09:44:10"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-30 09:44:11","user_id":20}
+{"level":"info","message":"Executing (28368636-0975-4b7d-a8e9-3365be6d2818): COMMIT;","timestamp":"2026-01-30 09:44:11"}
+{"level":"info","message":"Login Google exitoso","timestamp":"2026-01-30 09:44:11","user_id":20}
+{"id_usuario":20,"level":"info","message":"Handled POST /auth/google/login request","timestamp":"2026-01-30 09:44:11"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:44:11 +0000] \"POST /api/auth/google/login HTTP/1.1\" 200 201 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:44:11"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-30 09:44:21"}
+{"count":5,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-30 09:44:21"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-30 09:44:21"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:44:21 +0000] \"GET /api/ordenes HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:44:21"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 09:44:23"}
+{"level":"error","message":"Error en GET /ordenes/detalles/1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 09:44:23"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:44:23 +0000] \"GET /api/ordenes/detalles/1 HTTP/1.1\" 500 102 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:44:23"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 09:44:35"}
+{"level":"error","message":"Error en GET /ordenes/detalles/4: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 09:44:35"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:44:35 +0000] \"GET /api/ordenes/detalles/4 HTTP/1.1\" 500 102 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:44:35"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 09:44:47"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 09:44:48"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 09:44:48"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:44:48 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:44:48"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 09:44:59"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 09:44:59"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 09:44:59"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:44:59 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:44:59"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:45:42 +0000] \"POST /api/usuarios HTTP/1.1\" 400 139 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:45:42"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 09:45:42"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 09:45:42"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 09:45:42"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:45:42 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:45:42"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:48:47 +0000] \"POST /api/usuarios HTTP/1.1\" 400 139 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:48:47"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 09:48:48"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 09:48:48"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 09:48:48"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:48:48 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:48:48"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-30 09:56:51"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-30 09:56:51"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-30 09:56:51"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-30 09:56:51"}
+{"level":"info","message":"📊 Process ID: 19008","timestamp":"2026-01-30 09:56:51"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-30 09:57:20"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-30 09:57:20"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-30 09:57:20"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-30 09:57:20"}
+{"level":"info","message":"📊 Process ID: 12304","timestamp":"2026-01-30 09:57:20"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:57:27 +0000] \"POST /api/usuarios HTTP/1.1\" 400 139 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:57:27"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 09:57:27"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 09:57:27"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 09:57:27"}
+{"level":"info","message":"::1 - - [30/Jan/2026:15:57:27 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 09:57:27"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:01:47 +0000] \"POST /api/usuarios HTTP/1.1\" 400 139 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:01:47"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 10:01:47"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 10:01:47"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 10:01:47"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:01:47 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:01:47"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-30 10:04:39"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-30 10:04:39"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-30 10:04:39"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-30 10:04:39"}
+{"level":"info","message":"📊 Process ID: 17440","timestamp":"2026-01-30 10:04:39"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:04:43 +0000] \"POST /api/usuarios HTTP/1.1\" 400 139 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:04:43"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 10:04:43"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 10:04:43"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 10:04:43"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:04:43 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:04:43"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-30 10:05:23"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-30 10:05:23"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-30 10:05:23"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-30 10:05:23"}
+{"level":"info","message":"📊 Process ID: 17720","timestamp":"2026-01-30 10:05:23"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:05:31 +0000] \"POST /api/usuarios HTTP/1.1\" 400 139 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:05:31"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 10:05:31"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 10:05:31"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 10:05:31"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:05:31 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:05:31"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-30 10:07:31"}
+{"count":5,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-30 10:07:31"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-30 10:07:31"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:07:31 +0000] \"GET /api/ordenes HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:07:31"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 10:07:33"}
+{"level":"error","message":"Error en GET /ordenes/detalles/4: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 10:07:33"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:07:33 +0000] \"GET /api/ordenes/detalles/4 HTTP/1.1\" 500 102 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:07:33"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 10:27:07"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 10:27:07"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 10:27:07"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:27:07 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:27:07"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 10:35:48"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 10:35:48"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 10:35:48"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:35:48 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:35:48"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:37:30 +0000] \"POST /api/usuarios HTTP/1.1\" 400 249 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:37:30"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 10:37:30"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 10:37:30"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 10:37:30"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:37:30 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:37:30"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:45:57 +0000] \"GET /api/ordenes HTTP/1.1\" 401 77 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:45:57"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-30 10:50:25"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:50:25 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC2lepdKJIqMwZxaU5ocnPnQxcnpkHaCxwyAS4q7aQpt64AWYIUDmF4MlJfXJuMpPA&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none HTTP/1.1\" 302 143 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:50:25"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:50:27 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:50:27"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:50:30 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:50:30"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:50:34 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:50:34"}
+{"level":"info","message":"URL de autorización Microsoft generada","timestamp":"2026-01-30 10:50:36"}
+{"level":"info","message":"Handled GET /auth/microsoft/url request","timestamp":"2026-01-30 10:50:36"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:50:36 +0000] \"GET /api/auth/microsoft/url HTTP/1.1\" 200 522 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:50:36"}
+{"level":"info","message":"Handled GET /auth/microsoft/callback request","timestamp":"2026-01-30 10:50:41"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:50:41 +0000] \"GET /api/auth/microsoft/callback?code=1.AQQAA8CMBd7ly06gJJm9DVC73au0KcJOL61OuNpynuYMVOkEAVwEAA.BQABBAIAAAADAOz_BQD0_0V2b1N0c0FydGlmYWN0cwIAAAAAAG_sOCmxiaTHmKW0882DalwDPd9f4CaclreVwvYpwRbEJDu7AK7WZvTgFToA8nPzfxiJA8garlY9b-Yc9NqeI21wdaGnkOmAQA4PC4C7fiW5IAUwc5gG_xZzQHLBf_9Ngn2dh9h1GU-yORgcAe2EqaOQLRHdwsU19JOf8fEOf_dwIHRMgoaiSddqPiaYp3bECxOUVb72BHXRJ4Z6tEmP4KBGmmtZL2iJMbaufQF0oi_BOCuTXCeQbjR-jwqZddlAPgkxsb2CbZztbWhfFLSsIHb0HZ2YKAXDAxhKd4DrpoT8IzHHEglbNGadPtm8j8c_8AhqIYLIAR9jYLaTqsHAUWskhV3eJ7z9K9rRKr-4-Ozj8LHYeSjKCVTPP_E06FpZHvriOIHYF4oIcIFnxMZR_V2NHQSdZtz0iOTaJR1LPMOmRSwU4C9UPRSje6liZ2Pfgq4ArSo1Cv2nJFbcZtzSlZmoI2iDOSGRPqwpHLPzMWoFy8N0jWvYSp-UB9NozzuSpsb1cfPI9ZvdZyejEp0aaV982ZvMQsCajcSgcyZPnrcbu5r8N5L95aMO6IyTQ1uosZ20UPb2kRBjr-epHapt5QtohqBoKbspCWr6mwy2SQs_ZbkxYaMiqqP_B6owYOgTOyMNfNJ1STdCmbmacKy2KfvZAIFTfO6zfbZe8sI0dOJklWN1gmWtAgICEl6R9I5IyvyA_gZRfUgRXS2BT51gWj26yJGiC8ES-nDuIl1_GI3YcKgbzOneaRygn8PybYGqbgKaztMusR-QnPBnOHXK0CCYjiZYOObvEMnq2qpIHMCUwuOtcAE24hGYGm2r4_OKZZNKcqZPqWpYdl4Rgkf37zcWX3NNO9Nn06prV2fmmtU_Vt1JQrcX_YKacubwzw48tfRrztnQx2SsxA73TNpJq8xyYYYNnFFy_X9F1SRKJWIiH_8ABKnNikNOhG-q9GQbHDh_cfZN31FRH7wnzKymMD4J-tnGouDkw3HmP919XqKZyAaL9PENQdkGh4S0b7T8han0I0Lwc2VtB-CnrXopl_cupitglc97CzXtw122aV0ybGe4u3O4gw08EkPt1UWFT3wMuzfvNvXA7VSANP4jLSY4kxETyHQ4c8k9ZUeq7gsSjabyzT7Gu_ZWsh4KXV6ci5TxWREvbHnYuoFGPOiVzBBbe--llqmyayee-41smavznGFW_bWxkpUUxBRoM7X7hE1gqzKGqfVDq-dpPYlq5xdRuoyGFolN0fNi8r2hI-LSwzlEeIVqNXqZg5KsomdwmOwhF3PLwjPXiYD5ig5dCLROuK7Ltsuqtkv39Vevt7K-A1r23F6yflRYX_hpZurDwQ&client_info=eyJ1aWQiOiIxNTA1Mzg1Ni1iYjg1LTRjMDgtYTBmYi0xYmUxMTI3NWYyYjIiLCJ1dGlkIjoiMDU4Y2MwMDMtZTVkZS00ZWNiLWEwMjQtOTliZDBkNTBiYmRkIn0&session_state=00138fea-b26e-6372-8d4e-d163064413ea HTTP/1.1\" 302 1521 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:50:41"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:50:43 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:50:43"}
+{"level":"info","message":"Executing (24d29f7b-bcfc-4fb5-8cb0-8377a361829e): START TRANSACTION;","timestamp":"2026-01-30 10:50:43"}
+{"email":"ad24i04002@usonsonate.edu.sv","level":"info","message":"Código Microsoft verificado","timestamp":"2026-01-30 10:50:45"}
+{"level":"info","message":"Executing (24d29f7b-bcfc-4fb5-8cb0-8377a361829e): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'ad24i04002@usonsonate.edu.sv';","timestamp":"2026-01-30 10:50:45"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-30 10:50:45","user_id":21}
+{"level":"info","message":"Executing (24d29f7b-bcfc-4fb5-8cb0-8377a361829e): COMMIT;","timestamp":"2026-01-30 10:50:45"}
+{"level":"info","message":"Login Microsoft exitoso","timestamp":"2026-01-30 10:50:45","user_id":21}
+{"id_usuario":21,"level":"info","message":"Handled POST /auth/microsoft/login request","timestamp":"2026-01-30 10:50:45"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:50:45 +0000] \"POST /api/auth/microsoft/login HTTP/1.1\" 200 217 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:50:45"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:51:04 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:51:04"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-30 10:51:05"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-30 10:51:05"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:51:05 +0000] \"GET /api/auth/google/url HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:51:05"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-30 10:51:16"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:51:16 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC1waMkZJlN2m4gjRck0Pf_cWX2vskJVzex5vcTJ1phWRjsuJj388S0gAXt-Pi5zLQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none HTTP/1.1\" 302 143 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:51:16"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:51:17 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:51:17"}
+{"level":"info","message":"Executing (2256bcb9-06a0-4840-8351-678f56fa9ea7): START TRANSACTION;","timestamp":"2026-01-30 10:51:17"}
+{"email":"udiaz375@gmail.com","level":"info","message":"Código Google verificado","timestamp":"2026-01-30 10:51:18"}
+{"level":"info","message":"Executing (2256bcb9-06a0-4840-8351-678f56fa9ea7): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'udiaz375@gmail.com';","timestamp":"2026-01-30 10:51:18"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-30 10:51:18","user_id":20}
+{"level":"info","message":"Executing (2256bcb9-06a0-4840-8351-678f56fa9ea7): COMMIT;","timestamp":"2026-01-30 10:51:18"}
+{"level":"info","message":"Login Google exitoso","timestamp":"2026-01-30 10:51:18","user_id":20}
+{"id_usuario":20,"level":"info","message":"Handled POST /auth/google/login request","timestamp":"2026-01-30 10:51:18"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:51:18 +0000] \"POST /api/auth/google/login HTTP/1.1\" 200 201 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:51:18"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-30 10:51:21"}
+{"count":5,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-30 10:51:21"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-30 10:51:21"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:51:21 +0000] \"GET /api/ordenes HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:51:21"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 10:51:22"}
+{"level":"error","message":"Error en GET /ordenes/detalles/1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 10:51:22"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:51:22 +0000] \"GET /api/ordenes/detalles/1 HTTP/1.1\" 500 102 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:51:22"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 10:51:24"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 10:51:24"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 10:51:24"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:51:25 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:51:25"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-30 10:53:52"}
+{"count":5,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-30 10:53:52"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-30 10:53:52"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:53:52 +0000] \"GET /api/ordenes HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:53:52"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 10:53:54"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 10:53:54"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:53:54 +0000] \"GET /api/ordenes/detalles/orden1 HTTP/1.1\" 500 102 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:53:54"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 10:53:54"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 10:53:54"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:53:54 +0000] \"GET /api/ordenes/detalles/orden1 HTTP/1.1\" 500 102 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:53:54"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 10:53:55"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 10:53:55"}
+{"level":"info","message":"::1 - - [30/Jan/2026:16:53:55 +0000] \"GET /api/ordenes/detalles/orden1 HTTP/1.1\" 500 102 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 10:53:55"}
+{"level":"info","message":"::1 - - [30/Jan/2026:17:11:43 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 11:11:43"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-30 11:57:46"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-30 11:57:46"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-30 11:57:46"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-30 11:57:46"}
+{"level":"info","message":"📊 Process ID: 19392","timestamp":"2026-01-30 11:57:46"}
+{"level":"info","message":"::1 - - [30/Jan/2026:17:58:44 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 11:58:44"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-30 11:58:46"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-30 11:58:46"}
+{"level":"info","message":"::1 - - [30/Jan/2026:17:58:46 +0000] \"GET /api/auth/google/url HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 11:58:46"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-30 11:58:49"}
+{"level":"info","message":"::1 - - [30/Jan/2026:17:58:49 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC3U0r-CKUxWzrMrsQaqsSmyGRwVNwfu5JPph8TR8S6cspKKsyM_DNZw6XKdnZqyMg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none HTTP/1.1\" 302 143 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 11:58:49"}
+{"level":"info","message":"::1 - - [30/Jan/2026:17:58:50 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 11:58:50"}
+{"level":"info","message":"Executing (dcf693c7-e25f-452b-80b3-aea445897980): START TRANSACTION;","timestamp":"2026-01-30 11:58:50"}
+{"email":"udiaz375@gmail.com","level":"info","message":"Código Google verificado","timestamp":"2026-01-30 11:58:51"}
+{"level":"info","message":"Executing (dcf693c7-e25f-452b-80b3-aea445897980): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'udiaz375@gmail.com';","timestamp":"2026-01-30 11:58:51"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-30 11:58:51","user_id":20}
+{"level":"info","message":"Executing (dcf693c7-e25f-452b-80b3-aea445897980): COMMIT;","timestamp":"2026-01-30 11:58:51"}
+{"level":"info","message":"Login Google exitoso","timestamp":"2026-01-30 11:58:51","user_id":20}
+{"id_usuario":20,"level":"info","message":"Handled POST /auth/google/login request","timestamp":"2026-01-30 11:58:51"}
+{"level":"info","message":"::1 - - [30/Jan/2026:17:58:51 +0000] \"POST /api/auth/google/login HTTP/1.1\" 200 201 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 11:58:51"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-30 11:58:59"}
+{"level":"info","message":"::1 - - [30/Jan/2026:17:58:59 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC14mHIo8WQtqM90tcjiWmA8-pbbiPtVR2IV5--W7TRmVGMQB396FtYocPOkoqJBJw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none HTTP/1.1\" 302 143 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 11:58:59"}
+{"level":"info","message":"::1 - - [30/Jan/2026:17:59:00 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 11:59:00"}
+{"level":"info","message":"::1 - - [30/Jan/2026:17:59:03 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 11:59:03"}
+{"level":"info","message":"::1 - - [30/Jan/2026:17:59:06 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 11:59:06"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-30 12:08:05"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-30 12:08:05"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:08:05 +0000] \"GET /api/auth/google/url HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:08:05"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-30 12:08:09"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:08:10 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC00ZBVb1PNTAMPvVmm3jRbpZKhjveFTWfcTvT3Ct8x96a5VYoOcalaZim5WttC86A&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none HTTP/1.1\" 302 143 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:08:10"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:09:17 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:09:17"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-30 12:09:18"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-30 12:09:18"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:09:18 +0000] \"GET /api/auth/google/url HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:09:18"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-30 12:09:22"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:09:22 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC1Harb65Dn5t_RMoSYc33aOEkt4Plt_zDTywpsm9I9FD11bysmuXa9ezw7ibZpFZA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none HTTP/1.1\" 302 143 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:09:22"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:09:24 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:09:24"}
+{"level":"info","message":"Executing (4c83ca8e-324e-4bf8-8d4f-6398ed5bea2d): START TRANSACTION;","timestamp":"2026-01-30 12:09:24"}
+{"email":"udiaz375@gmail.com","level":"info","message":"Código Google verificado","timestamp":"2026-01-30 12:09:24"}
+{"level":"info","message":"Executing (4c83ca8e-324e-4bf8-8d4f-6398ed5bea2d): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'udiaz375@gmail.com';","timestamp":"2026-01-30 12:09:24"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-30 12:09:24","user_id":20}
+{"level":"info","message":"Executing (4c83ca8e-324e-4bf8-8d4f-6398ed5bea2d): COMMIT;","timestamp":"2026-01-30 12:09:24"}
+{"level":"info","message":"Login Google exitoso","timestamp":"2026-01-30 12:09:24","user_id":20}
+{"id_usuario":20,"level":"info","message":"Handled POST /auth/google/login request","timestamp":"2026-01-30 12:09:24"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:09:24 +0000] \"POST /api/auth/google/login HTTP/1.1\" 200 201 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:09:24"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-30 12:09:29"}
+{"count":5,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-30 12:09:30"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-30 12:09:30"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:09:30 +0000] \"GET /api/ordenes HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:09:30"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 12:09:31"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden1: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 12:09:31"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:09:31 +0000] \"GET /api/ordenes/detalles/orden1 HTTP/1.1\" 500 102 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:09:31"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 12:09:33"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden2: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 12:09:33"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:09:33 +0000] \"GET /api/ordenes/detalles/orden2 HTTP/1.1\" 500 102 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:09:33"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 12:09:34"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden2: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 12:09:34"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:09:34 +0000] \"GET /api/ordenes/detalles/orden2 HTTP/1.1\" 500 102 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:09:34"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 12:09:35"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden2: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 12:09:35"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:09:35 +0000] \"GET /api/ordenes/detalles/orden2 HTTP/1.1\" 500 102 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:09:35"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:09:48 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:09:48"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-30 12:11:48"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-30 12:11:48"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:11:48 +0000] \"GET /api/auth/google/url HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:11:48"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-30 12:12:08"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:12:08 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC09mhpBmeP23qm3ccvqoMqicHdFmrRgn3FZjs_wny8TJnL27XHFjv8Q1gHHxxYSrQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none HTTP/1.1\" 302 143 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:12:08"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:12:09 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:12:09"}
+{"level":"info","message":"Executing (044b451c-0cd0-4c22-98b1-39cc057443c4): START TRANSACTION;","timestamp":"2026-01-30 12:12:09"}
+{"email":"udiaz375@gmail.com","level":"info","message":"Código Google verificado","timestamp":"2026-01-30 12:12:10"}
+{"level":"info","message":"Executing (044b451c-0cd0-4c22-98b1-39cc057443c4): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'udiaz375@gmail.com';","timestamp":"2026-01-30 12:12:10"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-30 12:12:10","user_id":20}
+{"level":"info","message":"Executing (044b451c-0cd0-4c22-98b1-39cc057443c4): COMMIT;","timestamp":"2026-01-30 12:12:10"}
+{"level":"info","message":"Login Google exitoso","timestamp":"2026-01-30 12:12:10","user_id":20}
+{"id_usuario":20,"level":"info","message":"Handled POST /auth/google/login request","timestamp":"2026-01-30 12:12:10"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:12:10 +0000] \"POST /api/auth/google/login HTTP/1.1\" 200 201 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:12:10"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-30 12:12:14"}
+{"count":5,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-30 12:12:14"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-30 12:12:14"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:12:14 +0000] \"GET /api/ordenes HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:12:14"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:15:18 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:15:18"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-30 12:15:23"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-30 12:15:23"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:15:23 +0000] \"GET /api/auth/google/url HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:15:23"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-30 12:15:27"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:15:27 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC3zY-F9FLI-7SJ4-5i2yUgLXLrtGJ7iejh4Gj3qrSZq2ssKfHzSjILC8Xy4qnPG5w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none HTTP/1.1\" 302 143 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:15:27"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:15:29 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:15:29"}
+{"level":"info","message":"Executing (ed6a111c-08cb-485b-81ef-d85a5e9ab4ee): START TRANSACTION;","timestamp":"2026-01-30 12:15:29"}
+{"email":"udiaz375@gmail.com","level":"info","message":"Código Google verificado","timestamp":"2026-01-30 12:15:29"}
+{"level":"info","message":"Executing (ed6a111c-08cb-485b-81ef-d85a5e9ab4ee): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'udiaz375@gmail.com';","timestamp":"2026-01-30 12:15:29"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-30 12:15:29","user_id":20}
+{"level":"info","message":"Executing (ed6a111c-08cb-485b-81ef-d85a5e9ab4ee): COMMIT;","timestamp":"2026-01-30 12:15:29"}
+{"level":"info","message":"Login Google exitoso","timestamp":"2026-01-30 12:15:29","user_id":20}
+{"id_usuario":20,"level":"info","message":"Handled POST /auth/google/login request","timestamp":"2026-01-30 12:15:29"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:15:29 +0000] \"POST /api/auth/google/login HTTP/1.1\" 200 201 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:15:29"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:16:15 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:16:15"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-30 12:16:15"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-30 12:16:15"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:16:15 +0000] \"GET /api/auth/google/url HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:16:15"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-30 12:16:20"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:16:20 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC0x5Su-PXuNJJ6eQMK7w-BsLC24nGKp6i5QqBGaHhEDg-BhEZmKPIYDh_H6AMv8lQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none HTTP/1.1\" 302 143 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:16:20"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:16:21 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:16:21"}
+{"level":"info","message":"Executing (3ca10ffe-7524-4aa4-aeaa-262478bc2587): START TRANSACTION;","timestamp":"2026-01-30 12:16:21"}
+{"email":"udiaz375@gmail.com","level":"info","message":"Código Google verificado","timestamp":"2026-01-30 12:16:21"}
+{"level":"info","message":"Executing (3ca10ffe-7524-4aa4-aeaa-262478bc2587): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'udiaz375@gmail.com';","timestamp":"2026-01-30 12:16:21"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-30 12:16:21","user_id":20}
+{"level":"info","message":"Executing (3ca10ffe-7524-4aa4-aeaa-262478bc2587): COMMIT;","timestamp":"2026-01-30 12:16:21"}
+{"level":"info","message":"Login Google exitoso","timestamp":"2026-01-30 12:16:21","user_id":20}
+{"id_usuario":20,"level":"info","message":"Handled POST /auth/google/login request","timestamp":"2026-01-30 12:16:21"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:16:21 +0000] \"POST /api/auth/google/login HTTP/1.1\" 200 201 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:16:21"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:24:51 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:24:51"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:25:05 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:25:05"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-30 12:25:07"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-30 12:25:07"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:25:07 +0000] \"GET /api/auth/google/url HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:25:07"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-30 12:25:12"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:25:12 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC3yMJ3JUT322vQMxD5WcOM_IRvDcoGE_7xE3t6sDflpR3Uh6aLkQv9mNqKHR6gEEA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none HTTP/1.1\" 302 143 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:25:12"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:25:13 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:25:13"}
+{"level":"info","message":"Executing (30141837-e5e2-4e4b-b8e9-33e21e53a085): START TRANSACTION;","timestamp":"2026-01-30 12:25:13"}
+{"email":"udiaz375@gmail.com","level":"info","message":"Código Google verificado","timestamp":"2026-01-30 12:25:14"}
+{"level":"info","message":"Executing (30141837-e5e2-4e4b-b8e9-33e21e53a085): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'udiaz375@gmail.com';","timestamp":"2026-01-30 12:25:14"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-30 12:25:14","user_id":20}
+{"level":"info","message":"Executing (30141837-e5e2-4e4b-b8e9-33e21e53a085): COMMIT;","timestamp":"2026-01-30 12:25:14"}
+{"level":"info","message":"Login Google exitoso","timestamp":"2026-01-30 12:25:14","user_id":20}
+{"id_usuario":20,"level":"info","message":"Handled POST /auth/google/login request","timestamp":"2026-01-30 12:25:14"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:25:14 +0000] \"POST /api/auth/google/login HTTP/1.1\" 200 201 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:25:14"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:26:32"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:26:32"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:26:32"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:26:32 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:26:32"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:26:34"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:26:34"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:26:34"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:26:34 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:26:34"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:26:55"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:26:55"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:26:55"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:26:55 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:26:55"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:31:41"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:31:41"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:31:41"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:31:41 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:31:41"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:33:45"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:33:45"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:33:45"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:33:45 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:33:45"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-30 12:33:52"}
+{"count":5,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-30 12:33:52"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-30 12:33:52"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:33:52 +0000] \"GET /api/ordenes HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:33:52"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-30 12:34:01"}
+{"count":5,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-30 12:34:01"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-30 12:34:01"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:34:01 +0000] \"GET /api/ordenes HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:34:01"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:34:04"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:34:04"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:34:04"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:34:04 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:34:04"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:34:35 +0000] \"POST /api/usuarios HTTP/1.1\" 400 130 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:34:35"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:34:35 +0000] \"POST /api/usuarios HTTP/1.1\" 400 130 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:34:35"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:34:35"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:34:35"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:34:35"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:34:35 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:34:35"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:34:35"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:34:35"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:34:35"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:34:35 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:34:35"}
+{"level":"info","message":"Executing (b23e1d0e-b1ce-49ce-9f3e-36d6b3144bdd): START TRANSACTION;","timestamp":"2026-01-30 12:34:51"}
+{"level":"info","message":"Executing (b23e1d0e-b1ce-49ce-9f3e-36d6b3144bdd): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`id_usuario` = '2';","timestamp":"2026-01-30 12:34:51"}
+{"level":"info","message":"Executing (b23e1d0e-b1ce-49ce-9f3e-36d6b3144bdd): UPDATE `usuarios` SET `proveedor_login`=?,`id_microsoft`=? WHERE `id_usuario` = ?","timestamp":"2026-01-30 12:34:51"}
+{"level":"info","message":"Executing (b23e1d0e-b1ce-49ce-9f3e-36d6b3144bdd): COMMIT;","timestamp":"2026-01-30 12:34:51"}
+{"correo_usuario":"ulises.diaz@gmail.com","id_usuario":2,"level":"info","message":"Usuario actualizado satisfactoriamente","timestamp":"2026-01-30 12:34:51"}
+{"level":"info","message":"Handled PUT /usuarios/2 request","timestamp":"2026-01-30 12:34:51"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:34:51 +0000] \"PUT /api/usuarios/2 HTTP/1.1\" 200 212 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:34:51"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:34:51"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:34:51"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:34:51"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:34:51 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:34:51"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-30 12:36:05"}
+{"count":5,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-30 12:36:05"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-30 12:36:05"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:36:05 +0000] \"GET /api/ordenes HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:36:05"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-30 12:36:10"}
+{"count":5,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-30 12:36:10"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-30 12:36:10"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:36:10 +0000] \"GET /api/ordenes HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:36:10"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:42:18 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:42:18"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-30 12:42:21"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-30 12:42:21"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:42:21 +0000] \"GET /api/auth/google/url HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:42:21"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-30 12:42:26"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:42:26 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC1HWvA934v1mjM4cgXz5uQaAsZC0UhVFiQqn7vKyEBiD8q1dtkpH5WIBBl-JvkCwg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none HTTP/1.1\" 302 143 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:42:26"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:42:27 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:42:27"}
+{"level":"info","message":"Executing (a59dbd78-c8b6-4cff-8053-d6e85a26c15b): START TRANSACTION;","timestamp":"2026-01-30 12:42:27"}
+{"email":"udiaz375@gmail.com","level":"info","message":"Código Google verificado","timestamp":"2026-01-30 12:42:28"}
+{"level":"info","message":"Executing (a59dbd78-c8b6-4cff-8053-d6e85a26c15b): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'udiaz375@gmail.com';","timestamp":"2026-01-30 12:42:28"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-30 12:42:28","user_id":20}
+{"level":"info","message":"Executing (a59dbd78-c8b6-4cff-8053-d6e85a26c15b): COMMIT;","timestamp":"2026-01-30 12:42:28"}
+{"level":"info","message":"Login Google exitoso","timestamp":"2026-01-30 12:42:28","user_id":20}
+{"id_usuario":20,"level":"info","message":"Handled POST /auth/google/login request","timestamp":"2026-01-30 12:42:28"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:42:28 +0000] \"POST /api/auth/google/login HTTP/1.1\" 200 201 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:42:28"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:42:30"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:42:30"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:42:30"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:42:30 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:42:30"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-30 12:42:32"}
+{"count":5,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-30 12:42:32"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-30 12:42:32"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:42:32 +0000] \"GET /api/ordenes HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:42:32"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:42:39"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:42:39"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:42:39"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:42:39 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:42:39"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:44:45"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:44:45"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:44:45"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:44:45 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:44:45"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:44:47"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:44:47"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:44:47"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:44:47 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:44:47"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:44:51 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:44:51"}
+{"level":"info","message":"URL de autorización Google generada","timestamp":"2026-01-30 12:44:52"}
+{"level":"info","message":"Handled GET /auth/google/url request","timestamp":"2026-01-30 12:44:52"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:44:52 +0000] \"GET /api/auth/google/url HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:44:52"}
+{"level":"info","message":"Handled GET /auth/google/callback request","timestamp":"2026-01-30 12:44:56"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:44:56 +0000] \"GET /api/auth/google/callback?code=4%2F0ASc3gC2bpCFgSQVbvfOgMSmkhIVdy2xRc9kmdkcxc6ew47tlLUr7GlgcrYoOx3dGOk4Vag&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none HTTP/1.1\" 302 143 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:44:56"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:44:57 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:44:57"}
+{"level":"info","message":"Executing (dd297eb4-d8dd-4087-929e-6d8073e88e2d): START TRANSACTION;","timestamp":"2026-01-30 12:44:57"}
+{"email":"udiaz375@gmail.com","level":"info","message":"Código Google verificado","timestamp":"2026-01-30 12:44:58"}
+{"level":"info","message":"Executing (dd297eb4-d8dd-4087-929e-6d8073e88e2d): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`correo` = 'udiaz375@gmail.com';","timestamp":"2026-01-30 12:44:58"}
+{"level":"info","message":"JWT generado","timestamp":"2026-01-30 12:44:58","user_id":20}
+{"level":"info","message":"Executing (dd297eb4-d8dd-4087-929e-6d8073e88e2d): COMMIT;","timestamp":"2026-01-30 12:44:58"}
+{"level":"info","message":"Login Google exitoso","timestamp":"2026-01-30 12:44:58","user_id":20}
+{"id_usuario":20,"level":"info","message":"Handled POST /auth/google/login request","timestamp":"2026-01-30 12:44:58"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:44:58 +0000] \"POST /api/auth/google/login HTTP/1.1\" 200 201 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:44:58"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:45:00"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:45:00"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:45:00"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:45:00 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:45:00"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:47:04"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:47:04"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:47:04"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:47:04 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:47:04"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-30 12:48:38"}
+{"count":5,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-30 12:48:38"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-30 12:48:38"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:48:38 +0000] \"GET /api/ordenes HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:48:38"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 12:48:41"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden5: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 12:48:41"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:48:41 +0000] \"GET /api/ordenes/detalles/orden5 HTTP/1.1\" 500 102 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:48:41"}
+{"error":"WHERE parameter \"id_orden\" has invalid \"undefined\" value","level":"error","message":"Error obteniendo Detalles de la Orden","timestamp":"2026-01-30 12:48:42"}
+{"level":"error","message":"Error en GET /ordenes/detalles/orden5: WHERE parameter \"id_orden\" has invalid \"undefined\" value","timestamp":"2026-01-30 12:48:42"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:48:42 +0000] \"GET /api/ordenes/detalles/orden5 HTTP/1.1\" 500 102 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:48:42"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:48:48"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:48:48"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:48:48"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:48:48 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:48:48"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-30 12:48:55"}
+{"count":5,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-30 12:48:55"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-30 12:48:55"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:48:55 +0000] \"GET /api/ordenes HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:48:55"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:49:00"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:49:00"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:49:00"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:49:00 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:49:00"}
+{"level":"info","message":"Executing (default): SELECT `Ordenes`.`id_orden`, `Ordenes`.`id_usuario`, `Ordenes`.`fecha_orden`, `Ordenes`.`total`, `Usuario`.`id_usuario` AS `Usuario.id_usuario`, `Usuario`.`nombre_completo` AS `Usuario.nombre_completo` FROM `ordenes` AS `Ordenes` LEFT OUTER JOIN `usuarios` AS `Usuario` ON `Ordenes`.`id_usuario` = `Usuario`.`id_usuario`;","timestamp":"2026-01-30 12:50:16"}
+{"count":5,"level":"info","message":"Ordenes obtenidas satisfactoriamente","timestamp":"2026-01-30 12:50:16"}
+{"level":"info","message":"Handled GET /ordenes request","timestamp":"2026-01-30 12:50:16"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:50:16 +0000] \"GET /api/ordenes HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:50:16"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:50:39"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:50:39"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:50:39"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:50:39 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:50:39"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:51:04 +0000] \"POST /api/usuarios HTTP/1.1\" 400 133 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:51:04"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:51:04"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:51:04"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:51:04"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:51:04 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:51:04"}
+{"level":"info","message":"Executing (fdb510cf-9622-4cc1-a205-4229b76c75a6): START TRANSACTION;","timestamp":"2026-01-30 12:51:16"}
+{"level":"info","message":"Executing (fdb510cf-9622-4cc1-a205-4229b76c75a6): SELECT `id_usuario`, `nombre_completo`, `correo`, `proveedor_login`, `id_microsoft`, `fecha_registro`, `estado` FROM `usuarios` AS `Usuarios` WHERE `Usuarios`.`id_usuario` = '18';","timestamp":"2026-01-30 12:51:16"}
+{"level":"info","message":"Executing (fdb510cf-9622-4cc1-a205-4229b76c75a6): DELETE FROM `usuarios` WHERE `id_usuario` = 18","timestamp":"2026-01-30 12:51:16"}
+{"level":"info","message":"Executing (fdb510cf-9622-4cc1-a205-4229b76c75a6): ROLLBACK;","timestamp":"2026-01-30 12:51:16"}
+{"error":"Cannot delete or update a parent row: a foreign key constraint fails (`projectdb`.`ordenes`, CONSTRAINT `fk_orden_usuario` FOREIGN KEY (`id_usuario`) REFERENCES `usuarios` (`id_usuario`) ON UPDATE CASCADE)","id_usuario":"18","level":"error","message":"Error eliminando usuario","timestamp":"2026-01-30 12:51:16"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:51:16 +0000] \"DELETE /api/usuarios/18 HTTP/1.1\" 500 247 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:51:16"}
+{"level":"info","message":"Executing (default): SELECT `id_usuario`, `nombre_completo`, `correo`, `estado` FROM `usuarios` AS `Usuarios`;","timestamp":"2026-01-30 12:51:16"}
+{"count":6,"level":"info","message":"Usuarios obtenidos satisfactoriamente","timestamp":"2026-01-30 12:51:16"}
+{"level":"info","message":"Handled GET /usuarios request","timestamp":"2026-01-30 12:51:16"}
+{"level":"info","message":"::1 - - [30/Jan/2026:18:51:16 +0000] \"GET /api/usuarios HTTP/1.1\" 304 - \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 12:51:16"}
+{"level":"info","message":"::1 - - [30/Jan/2026:19:12:17 +0000] \"GET /api/auth/me HTTP/1.1\" 404 150 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","timestamp":"2026-01-30 13:12:17"}
+{"level":"info","message":"Executing (default): SELECT 1+1 AS result","timestamp":"2026-01-30 13:17:45"}
+{"level":"info","message":"🔗 Connection has been established successfully","timestamp":"2026-01-30 13:17:45"}
+{"level":"info","message":"🚀 Server running in http://localhost:3000","timestamp":"2026-01-30 13:17:45"}
+{"level":"info","message":"⚙️ Environment mode development","timestamp":"2026-01-30 13:17:45"}
+{"level":"info","message":"📊 Process ID: 18816","timestamp":"2026-01-30 13:17:45"}
